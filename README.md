@@ -1,4 +1,13 @@
-# ITB Informatics Undergraduate Thesis (Tugas Akhir) Template in Typst
+# Tugas Akhir IF ITB — Muhammad Adha Ridwan (13523098)
+
+Repositori naskah Tugas Akhir Program Studi Sarjana Teknik Informatika ITB milik **Muhammad Adha Ridwan (13523098)**.
+
+- **Pembimbing 1:** Ir. Yudistira Dwi Wardhana Asnar Ph.D
+- **Pembimbing 2:** Galuh Barata ST MT
+
+Data mahasiswa dan pembimbing telah diisi di `main.typ`, serta identitas mahasiswa pada lampiran. Judul, NIP pembimbing, tanggal pengesahan, dan isi naskah masih perlu dilengkapi.
+
+Menggunakan [template Typst TA IF ITB oleh DaDecky](https://github.com/DaDecky/Template-Proposal-dan-TA-IF-ITB-Typst). Panduan template asal tersedia di bawah ini.
 
 > ⚠️ **DISCLAIMER / WORK IN PROGRESS (WIP)**  
 > Template ini masih dalam tahap **pengembangan aktif (Work in Progress)** dan merupakan proyek eksperimental independen untuk mahasiswa Teknik Informatika STEI ITB.  

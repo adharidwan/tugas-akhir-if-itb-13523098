@@ -9,8 +9,8 @@ Dengan ini, saya:
   #grid(
     columns: (3.8cm, 0.4cm, 1fr),
     row-gutter: 0.4em,
-    [Nama Mahasiswa], [:], [\<NAMA MAHASISWA\>],
-    [NIM], [:], [135XXXXX],
+    [Nama Mahasiswa], [:], [Muhammad Adha Ridwan],
+    [NIM], [:], [13523098],
     [Program Studi], [:], [Sarjana Teknik Informatika],
     [Fakultas / Sekolah], [:], [Sekolah Teknik Elektro dan Informatika],
     [Judul Tugas Akhir], [:], [\<JUDUL TUGAS AKHIR\>],
@@ -44,8 +44,8 @@ Saya menyatakan bertanggung jawab penuh atas seluruh kebenaran fakta, analisis, 
     #set par(first-line-indent: 0pt)
     Bandung, \<Tanggal Pengesahan\>\
     #v(2cm)
-    #underline([\<NAMA MAHASISWA\>])\
-    NIM : 135XXXXX
+    #underline([Muhammad Adha Ridwan])\
+    NIM : 13523098
   ]
 ]
 

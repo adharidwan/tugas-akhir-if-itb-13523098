@@ -3,12 +3,12 @@
 #show: if-thesis.with(
   title: "<JUDUL TUGAS AKHIR>",
   title-en: "<ENGLISH THESIS TITLE>",
-  author: "<NAMA MAHASISWA>",
-  nim: "135XXXXX",
-  advisor1: "<Nama Pembimbing I, Gelar>",
+  author: "Muhammad Adha Ridwan",
+  nim: "13523098",
+  advisor1: "Ir. Yudistira Dwi Wardhana Asnar Ph.D",
   nip1: "<NIP Pembimbing I>",
-  advisor2: none, // Isi dengan "<Nama Pembimbing II, Gelar>" jika ada
-  nip2: none,    // Isi dengan "<NIP Pembimbing II>" jika ada
+  advisor2: "Galuh Barata ST MT",
+  nip2: "<NIP Pembimbing II>",
   date: "<Tanggal Pengesahan>",
   month-year: "<Bulan Tahun>",
   abstract-id: [
