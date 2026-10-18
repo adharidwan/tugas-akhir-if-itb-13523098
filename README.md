@@ -7,6 +7,8 @@ Repositori naskah Tugas Akhir Program Studi Sarjana Teknik Informatika ITB milik
 
 Data mahasiswa dan pembimbing telah diisi di `main.typ`, serta identitas mahasiswa pada lampiran. Judul, NIP pembimbing, tanggal pengesahan, dan isi naskah masih perlu dilengkapi.
 
+Sepuluh paper prioritas beserta PDF lengkap, urutan baca, dan tautan sumber tersedia di [reference/](reference/README.md).
+
 Menggunakan [template Typst TA IF ITB oleh DaDecky](https://github.com/DaDecky/Template-Proposal-dan-TA-IF-ITB-Typst). Panduan template asal tersedia di bawah ini.
 
 > ⚠️ **DISCLAIMER / WORK IN PROGRESS (WIP)**  
