@@ -1,0 +1,36 @@
+{
+  "securityeval": {
+    "commit": "6f4fb70f782c6d47b02ea24341e8ef8c1eb04a6a",
+    "samples": 121,
+    "cwe_count": 69,
+    "sha256": "4d8b85dfbee60636019ebc4fce23f9ff36aa460e12335a1328229270c48b95ae"
+  },
+  "llmseceval": {
+    "commit": "39e97f046dbb2c4c604d31b86f2a4d3d27827388",
+    "samples": 150,
+    "cwe_count": 18,
+    "languages": {
+      "C": 67,
+      "Python": 83
+    },
+    "python_samples": 83,
+    "python_cwe_count": 12,
+    "sha256": "a1b7307678e061faefb8d666eb6cec506d6a40751175716af07703b3f12433cc"
+  },
+  "shared_python_cwes": [
+    20,
+    22,
+    78,
+    79,
+    89,
+    200,
+    306,
+    434,
+    502,
+    522,
+    732,
+    798
+  ],
+  "checked_on": "2026-10-19",
+  "method": "SecurityEval: count nonempty JSONL records; unique integer CWE prefix from ID. LLMSecEval: count JSON array records; unique integer CWE prefix from Prompt ID; filter Language.lower() == python. This is a snapshot count, not manual label validation or a final experiment subset."
+}

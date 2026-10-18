@@ -1,0 +1,617 @@
+[
+  {
+    "arxiv_id": "2409.10737v1",
+    "citation": "Nunez et al., 2024",
+    "title": "AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing",
+    "authors_metadata": [
+      "Nunez, Ana",
+      "Islam, Nafis Tanveer",
+      "Jha, Sumit Kumar",
+      "Najafirad, Peyman"
+    ],
+    "first_submission": "2024/09/16",
+    "version_date": "2024/09/16",
+    "url": "https://arxiv.org/abs/2409.10737v1",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2603.22717",
+    "citation": "Sabir et al., 2026",
+    "title": "Does Teaming-Up LLMs Improve Secure Code Generation? A Comprehensive Evaluation with Multi-LLMSecCodeEval",
+    "authors_metadata": [
+      "Sabir, Bushra",
+      "Liu, Shigang",
+      "Jang, Seung Ick",
+      "Abuadbba, Sharif",
+      "Gao, Yansong",
+      "Moore, Kristen",
+      "Kim, SangCheol",
+      "Kim, Hyoungshick",
+      "Nepal, Surya"
+    ],
+    "first_submission": "2026/03/24",
+    "version_date": "2026/03/24",
+    "url": "https://arxiv.org/abs/2603.22717",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2605.23091",
+    "citation": "Morkonda et al., 2026",
+    "title": "Security of LLM-generated Code: A Comparative Analysis",
+    "authors_metadata": [
+      "Morkonda, Srivathsan G",
+      "Selim, Mahmoud",
+      "Assal, Hala"
+    ],
+    "first_submission": "2026/05/21",
+    "version_date": "2026/05/21",
+    "url": "https://arxiv.org/abs/2605.23091",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2312.04724v1",
+    "citation": "Bhatt et al., 2023",
+    "title": "Purple Llama CyberSecEval: A Secure Coding Benchmark for Language Models",
+    "authors_metadata": [
+      "Bhatt, Manish",
+      "Chennabasappa, Sahana",
+      "Nikolaidis, Cyrus",
+      "Wan, Shengye",
+      "Evtimov, Ivan",
+      "Gabi, Dominik",
+      "Song, Daniel",
+      "Ahmad, Faizan",
+      "Aschermann, Cornelius",
+      "Fontana, Lorenzo",
+      "Frolov, Sasha",
+      "Giri, Ravi Prakash",
+      "Kapil, Dhaval",
+      "Kozyrakis, Yiannis",
+      "LeBlanc, David",
+      "Milazzo, James",
+      "Straumann, Aleksandar",
+      "Synnaeve, Gabriel",
+      "Vontimitta, Varun",
+      "Whitman, Spencer",
+      "Saxe, Joshua"
+    ],
+    "first_submission": "2023/12/07",
+    "version_date": "2023/12/07",
+    "url": "https://arxiv.org/abs/2312.04724v1",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2605.18153",
+    "citation": "Peng et al., 2026",
+    "title": "Three Heads Are Better Than One: A Multi-perspective Reasoning Framework for Enhanced Vulnerability Detection",
+    "authors_metadata": [
+      "Peng, Xin",
+      "Lin, Bo",
+      "Wang, Jing",
+      "Li, Xiaoling",
+      "Ma, Jun",
+      "Yu, Jie",
+      "Mao, Xiaoguang",
+      "Wang, Shangwen"
+    ],
+    "first_submission": "2026/05/18",
+    "version_date": "2026/05/18",
+    "url": "https://arxiv.org/abs/2605.18153",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2505.10961v2",
+    "citation": "Widyasari et al., 2025",
+    "title": "Let the Trial Begin: A Mock-Court Approach to Vulnerability Detection using LLM-Based Agents",
+    "authors_metadata": [
+      "Widyasari, Ratnadira",
+      "Weyssow, Martin",
+      "Irsan, Ivana Clairine",
+      "Ang, Han Wei",
+      "Liauw, Frank",
+      "Ouh, Eng Lieh",
+      "Shar, Lwin Khin",
+      "Kang, Hong Jin",
+      "Lo, David"
+    ],
+    "first_submission": "2025/05/16",
+    "version_date": "2025/12/03",
+    "url": "https://arxiv.org/abs/2505.10961v2",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2509.15433",
+    "citation": "Agrawal dan Ahi, 2025",
+    "title": "LLM-Driven SAST-Genius: A Hybrid Static Analysis Framework for Comprehensive and Actionable Security",
+    "authors_metadata": [
+      "Agrawal, Vaibhav",
+      "Ahi, Kiarash"
+    ],
+    "first_submission": "2025/09/18",
+    "version_date": "2025/11/04",
+    "url": "https://arxiv.org/abs/2509.15433",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2601.00509v1",
+    "citation": "Sriram et al., 2026",
+    "title": "Improving LLM-Assisted Secure Code Generation through Retrieval-Augmented-Generation and Multi-Tool Feedback",
+    "authors_metadata": [
+      "Sriram, Vidyut",
+      "Pandita, Sawan",
+      "Lakshmanan, Achintya",
+      "Shamraj, Aneesh",
+      "Saha, Suman"
+    ],
+    "first_submission": "2026/01/01",
+    "version_date": "2026/01/01",
+    "url": "https://arxiv.org/abs/2601.00509v1",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2504.18333",
+    "citation": "Maloyan dan Namiot, 2025",
+    "title": "Adversarial Attacks on LLM-as-a-Judge Systems: Insights from Prompt Injections",
+    "authors_metadata": [
+      "Maloyan, Narek",
+      "Namiot, Dmitry"
+    ],
+    "first_submission": "2025/04/25",
+    "version_date": "2025/04/25",
+    "url": "https://arxiv.org/abs/2504.18333",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2602.16741",
+    "citation": "Thornton, 2026",
+    "title": "Can Adversarial Code Comments Fool AI Security Reviewers -- Large-Scale Empirical Study of Comment-Based Attacks and Defenses Against LLM Code Analysis",
+    "authors_metadata": [
+      "Thornton, Scott"
+    ],
+    "first_submission": "2026/02/18",
+    "version_date": "2026/02/18",
+    "url": "https://arxiv.org/abs/2602.16741",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2411.08813",
+    "citation": "Hariharan et al., 2024",
+    "title": "Rethinking CyberSecEval: An LLM-Aided Approach to Evaluation Critique",
+    "authors_metadata": [
+      "Hariharan, Suhas",
+      "Majid, Zainab Ali",
+      "Veuthey, Jaime Raldua",
+      "Haimes, Jacob"
+    ],
+    "first_submission": "2024/11/13",
+    "version_date": "2024/11/13",
+    "url": "https://arxiv.org/abs/2411.08813",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2605.24298",
+    "citation": "Kharma et al., 2026",
+    "title": "An Empirical Evaluation of LLM-Generated Code Security Across Prompting Methods",
+    "authors_metadata": [
+      "Kharma, Mohammed",
+      "Sabbah, Ahmed",
+      "Alkhanafseh, Mohammad",
+      "Hammoudeh, Mohammad",
+      "Mohaisen, David"
+    ],
+    "first_submission": "2026/05/22",
+    "version_date": "2026/05/22",
+    "url": "https://arxiv.org/abs/2605.24298",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2512.04259",
+    "citation": "Khanmohammadi et al., 2026",
+    "title": "WildCode Revisited: A Comprehensive Empirical Study on the Security of LLM-Generated Code",
+    "authors_metadata": [
+      "Khanmohammadi, Kobra",
+      "Roy, Pooria",
+      "Khoury, Raphael",
+      "Hamou-Lhadj, Abdelwahab",
+      "Konan, Wilfried Patrick",
+      "Da Re, Alexander",
+      "Melo, Nicholas Rebelo"
+    ],
+    "first_submission": "2025/12/03",
+    "version_date": "2026/06/03",
+    "url": "https://arxiv.org/abs/2512.04259",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2504.20814v2",
+    "citation": "Belozerov et al., 2026",
+    "title": "Secure Coding with AI -- From Detection to Repair",
+    "authors_metadata": [
+      "Belozerov, Vladislav",
+      "Barclay, Peter J",
+      "Sami, Ashkan"
+    ],
+    "first_submission": "2025/04/29",
+    "version_date": "2026/02/17",
+    "url": "https://arxiv.org/abs/2504.20814v2",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2511.18966v1",
+    "citation": "Shahid et al., 2025",
+    "title": "LLM-CSEC: Empirical Evaluation of Security in C/C++ Code Generated by Large Language Models",
+    "authors_metadata": [
+      "Shahid, Muhammad Usman",
+      "Ahmed, Chuadhry Mujeeb",
+      "Ranjan, Rajiv"
+    ],
+    "first_submission": "2025/11/24",
+    "version_date": "2025/11/24",
+    "url": "https://arxiv.org/abs/2511.18966v1",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2506.23034v1",
+    "citation": "Yan et al., 2025",
+    "title": "Guiding AI to Fix Its Own Flaws: An Empirical Study on LLM-Driven Secure Code Generation",
+    "authors_metadata": [
+      "Yan, Hao",
+      "Vaidya, Swapneel Suhas",
+      "Zhang, Xiaokuan",
+      "Yao, Ziyu"
+    ],
+    "first_submission": "2025/06/28",
+    "version_date": "2025/06/28",
+    "url": "https://arxiv.org/abs/2506.23034v1",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2410.15631",
+    "citation": "Chen et al., 2025",
+    "title": "Security of Language Models for Code: A Systematic Literature Review",
+    "authors_metadata": [
+      "Chen, Yuchen",
+      "Sun, Weisong",
+      "Fang, Chunrong",
+      "Chen, Zhenpeng",
+      "Ge, Yifei",
+      "Han, Tingxu",
+      "Zhang, Quanjun",
+      "Liu, Yang",
+      "Chen, Zhenyu",
+      "Xu, Baowen"
+    ],
+    "first_submission": "2024/10/21",
+    "version_date": "2025/05/18",
+    "url": "https://arxiv.org/abs/2410.15631",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2405.17238v3",
+    "citation": "Z. Li et al., 2025",
+    "title": "IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities",
+    "authors_metadata": [
+      "Li, Ziyang",
+      "Dutta, Saikat",
+      "Naik, Mayur"
+    ],
+    "first_submission": "2024/05/27",
+    "version_date": "2025/04/06",
+    "url": "https://arxiv.org/abs/2405.17238v3",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2510.02534v1",
+    "citation": "Iranmanesh et al., 2025",
+    "title": "ZeroFalse: Improving Precision in Static Analysis with LLMs",
+    "authors_metadata": [
+      "Iranmanesh, Mohsen",
+      "Sabet, Sina Moradi",
+      "Marefat, Sina",
+      "Ghasr, Ali Javidi",
+      "Wilson, Allison",
+      "Sharafaldin, Iman",
+      "Tayebi, Mohammad A."
+    ],
+    "first_submission": "2025/10/02",
+    "version_date": "2025/10/02",
+    "url": "https://arxiv.org/abs/2510.02534v1",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2303.09384v1",
+    "citation": "Tony et al., 2023",
+    "title": "LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations",
+    "authors_metadata": [
+      "Tony, Catherine",
+      "Mutas, Markus",
+      "Ferreyra, Nicolás E. Díaz",
+      "Scandariato, Riccardo"
+    ],
+    "first_submission": "2023/03/16",
+    "version_date": "2023/03/16",
+    "url": "https://arxiv.org/abs/2303.09384v1",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2605.01885",
+    "citation": "Ameen et al., 2026",
+    "title": "QASecClaw: A Multi-Agent LLM Approach for False Positive Reduction in Static Application Security Testing",
+    "authors_metadata": [
+      "Ameen, Mohd Ruhul",
+      "Alam, Md Takrim Ul",
+      "Islam, Akif"
+    ],
+    "first_submission": "2026/05/03",
+    "version_date": "2026/05/03",
+    "url": "https://arxiv.org/abs/2605.01885",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2402.02172v4",
+    "citation": "Tang et al., 2024",
+    "title": "CodeAgent: Collaborative Agents for Software Engineering",
+    "authors_metadata": [
+      "Tang, Daniel",
+      "Kim, Kisub",
+      "Song, Yewei",
+      "Lothritz, Cedric",
+      "Li, Bei",
+      "Ezzini, Saad",
+      "Tian, Haoye",
+      "Klein, Jacques",
+      "Bissyande, Tegawende F."
+    ],
+    "first_submission": "2024/02/03",
+    "version_date": "2024/06/28",
+    "url": "https://arxiv.org/abs/2402.02172v4",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2604.21282",
+    "citation": "Wang, 2026",
+    "title": "Strategic Heterogeneous Multi-Agent Architecture for Cost-Effective Code Vulnerability Detection",
+    "authors_metadata": [
+      "Wang, Zhaohui Geoffrey"
+    ],
+    "first_submission": "2026/04/23",
+    "version_date": "2026/04/23",
+    "url": "https://arxiv.org/abs/2604.21282",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2602.09774v1",
+    "citation": "Tsigkourakos dan Patsakis, 2026",
+    "title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
+    "authors_metadata": [
+      "Tsigkourakos, George",
+      "Patsakis, Constantinos"
+    ],
+    "first_submission": "2026/02/10",
+    "version_date": "2026/02/10",
+    "url": "https://arxiv.org/abs/2602.09774v1",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2604.19049",
+    "citation": "Agarwal, 2026",
+    "title": "Refute-or-Promote: An Adversarial Stage-Gated Multi-Agent Review Methodology for High-Precision LLM-Assisted Defect Discovery",
+    "authors_metadata": [
+      "Agarwal, Abhinav"
+    ],
+    "first_submission": "2026/04/21",
+    "version_date": "2026/04/21",
+    "url": "https://arxiv.org/abs/2604.19049",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2505.04195",
+    "citation": "Seo et al., 2025",
+    "title": "AutoPatch: Multi-Agent Framework for Patching Real-World CVE Vulnerabilities",
+    "authors_metadata": [
+      "Seo, Minjae",
+      "Choi, Wonwoo",
+      "You, Myoungsung",
+      "Shin, Seungwon"
+    ],
+    "first_submission": "2025/05/07",
+    "version_date": "2025/11/28",
+    "url": "https://arxiv.org/abs/2505.04195",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2312.00024",
+    "citation": "Alrashedy et al., 2024",
+    "title": "Can LLMs Patch Security Issues?",
+    "authors_metadata": [
+      "Alrashedy, Kamel",
+      "Aljasser, Abdullah",
+      "Tambwekar, Pradyumna",
+      "Gombolay, Matthew"
+    ],
+    "first_submission": "2023/11/13",
+    "version_date": "2024/10/16",
+    "url": "https://arxiv.org/abs/2312.00024",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2502.18515",
+    "citation": "Karanjai et al., 2025",
+    "title": "Securing Smart Contract Languages with a Unified Agentic Framework for Vulnerability Repair in Solidity and Move",
+    "authors_metadata": [
+      "Karanjai, Rabimba",
+      "Xu, Lei",
+      "Shi, Weidong"
+    ],
+    "first_submission": "2025/02/22",
+    "version_date": "2025/11/20",
+    "url": "https://arxiv.org/abs/2502.18515",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2508.14419",
+    "citation": "Blyth et al., 2025",
+    "title": "Static Analysis as a Feedback Loop: Enhancing LLM-Generated Code Beyond Correctness",
+    "authors_metadata": [
+      "Blyth, Scott",
+      "Licorish, Sherlock A.",
+      "Treude, Christoph",
+      "Wagner, Markus"
+    ],
+    "first_submission": "2025/08/20",
+    "version_date": "2025/08/20",
+    "url": "https://arxiv.org/abs/2508.14419",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2603.23613",
+    "citation": "Ravi et al., 2026",
+    "title": "LLMLOOP: Improving LLM-Generated Code and Tests through Automated Iterative Feedback Loops",
+    "authors_metadata": [
+      "Ravi, Ravin",
+      "Bradshaw, Dylan",
+      "Ruberto, Stefano",
+      "Jahangirova, Gunel",
+      "Terragni, Valerio"
+    ],
+    "first_submission": "2026/03/24",
+    "version_date": "2026/03/24",
+    "url": "https://arxiv.org/abs/2603.23613",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2509.22040",
+    "citation": "Liu et al., 2026",
+    "title": "\"Your AI, My Shell\": Demystifying Prompt Injection Attacks on Agentic AI Coding Editors",
+    "authors_metadata": [
+      "Liu, Yue",
+      "Zhao, Yanjie",
+      "Lyu, Yunbo",
+      "Zhang, Ting",
+      "Wang, Haoyu",
+      "Lo, David"
+    ],
+    "first_submission": "2025/09/26",
+    "version_date": "2026/04/28",
+    "url": "https://arxiv.org/abs/2509.22040",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2606.19191",
+    "citation": "Lin dan Yu, 2026",
+    "title": "PhantomSkill: Malicious Code Injection in Agent Skill Ecosystems",
+    "authors_metadata": [
+      "Lin, Yu-Ting",
+      "Yu, Chia-Mu"
+    ],
+    "first_submission": "2026/06/17",
+    "version_date": "2026/06/17",
+    "url": "https://arxiv.org/abs/2606.19191",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2602.10453",
+    "citation": "P. Wang et al., 2026",
+    "title": "The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis",
+    "authors_metadata": [
+      "Wang, Peiran",
+      "Li, Xinfeng",
+      "Xiang, Chong",
+      "Zhang, Jinghuai",
+      "Li, Ying",
+      "Zhang, Lixia",
+      "Wang, Xiaofeng",
+      "Tian, Yuan"
+    ],
+    "first_submission": "2026/02/11",
+    "version_date": "2026/02/11",
+    "url": "https://arxiv.org/abs/2602.10453",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2608.23897",
+    "citation": "Raj dan Sahu, 2026",
+    "title": "Names Can Hurt: Spotting Slopsquatting Risks Caused by Package Name Hallucinations in Local Coding LLMs",
+    "authors_metadata": [
+      "Raj, Akash",
+      "Sahu, Sargam"
+    ],
+    "first_submission": "2026/08/24",
+    "version_date": "2026/08/24",
+    "url": "https://arxiv.org/abs/2608.23897",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2407.09164v3",
+    "citation": "Yang et al., 2024",
+    "title": "TAPI: Towards Target-Specific and Adversarial Prompt Injection against Code LLMs",
+    "authors_metadata": [
+      "Yang, Yuchen",
+      "Yao, Hongwei",
+      "Yang, Bingrun",
+      "He, Yiling",
+      "Li, Yiming",
+      "Zhang, Tianwei",
+      "Qin, Zhan",
+      "Ren, Kui"
+    ],
+    "first_submission": "2024/07/12",
+    "version_date": "2024/07/22",
+    "url": "https://arxiv.org/abs/2407.09164v3",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2510.00317v1",
+    "citation": "Y. Li et al., 2025",
+    "title": "MAVUL: Multi-Agent Vulnerability Detection via Contextual Reasoning and Interactive Refinement",
+    "authors_metadata": [
+      "Li, Youpeng",
+      "Joshi, Kartik",
+      "Wang, Xinda",
+      "Wong, Eric"
+    ],
+    "first_submission": "2025/09/30",
+    "version_date": "2025/09/30",
+    "url": "https://arxiv.org/abs/2510.00317v1",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2407.02395v2",
+    "citation": "J. Wang et al., 2024",
+    "title": "Is Your AI-Generated Code Really Safe? Evaluating Large Language Models on Secure Code Generation with CodeSecEval",
+    "authors_metadata": [
+      "Wang, Jiexin",
+      "Luo, Xitong",
+      "Cao, Liuwen",
+      "He, Hongkui",
+      "Huang, Hailin",
+      "Xie, Jiayuan",
+      "Jatowt, Adam",
+      "Cai, Yi"
+    ],
+    "first_submission": "2024/07/02",
+    "version_date": "2024/07/04",
+    "url": "https://arxiv.org/abs/2407.02395v2",
+    "checked_on": "2026-10-19"
+  },
+  {
+    "arxiv_id": "2407.02395v3",
+    "citation": "J. Wang et al., 2026",
+    "title": "Toward Secure Code Generation: Bridging Correctness and Security via Task-Adaptive Vulnerability Modeling and Execution-Based Benchmarking",
+    "authors_metadata": [
+      "Wang, Jiexin",
+      "Cao, Liuwen",
+      "Luo, Xitong",
+      "Cao, Yang",
+      "Li, Zhenghao",
+      "Xiao, Yunyi",
+      "Zhao, Mengchen",
+      "Jatowt, Adam",
+      "Cai, Yi"
+    ],
+    "first_submission": "2024/07/02",
+    "version_date": "2026/09/14",
+    "url": "https://arxiv.org/abs/2407.02395v3",
+    "checked_on": "2026-10-19"
+  }
+]

@@ -4,6 +4,17 @@ Sepuluh paper prioritas untuk penelitian keamanan kode hasil LLM dan gate multi-
 
 Diunduh pada 18 Oktober 2026. Versi yang disebutkan secara eksplisit pada daftar awal dipertahankan: AutoSafeCoder v1, CyberSecEval v1, VulTrial v2, dan RAG + Multi-Tool Feedback v1. Untuk tautan tanpa versi, PDF diambil dari tautan arXiv tersebut saat pengunduhan.
 
+## Bahan kerja Bab 2
+
+Draf diperbarui pada 19 Oktober 2026 berdasarkan brief penulisan dan pemeriksaan sumber primer. Status berikut membedakan pemeriksaan metadata, pembacaan bagian relevan, serta hal yang masih terbuka.
+
+- [Draf Bab 2 dalam Typst](../chapters/02-studi-literatur.typ)
+- [Pratinjau PDF khusus Bab 2](../output/pdf/bab-2-tinjauan-pustaka.pdf)
+- [Daftar pustaka kandidat dan status verifikasi](bab2-daftar-pustaka-kandidat.md)
+- [Koreksi sumber dan daftar verifikasi penulis](bab2-verifikasi.md)
+- [Metadata sumber primer](bab2-metadata-sumber.json)
+- [Snapshot penghitungan dataset](bab2-snapshot-dataset.json)
+
 ## Wajib baca penuh: pembanding terdekat
 
 1. **AutoSafeCoder**
