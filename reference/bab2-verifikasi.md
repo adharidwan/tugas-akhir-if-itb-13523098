@@ -10,7 +10,7 @@ Tanggal pemeriksaan: 19 Oktober 2026. Nomor V01–V15 menghubungkan tanda dalam 
 | IRIS | PDF prosiding ICLR 2025, Tabel 1: pada CWE-Bench-Java, GPT-4 mendeteksi 55/120 dibanding 27/120 CodeQL; AvgFDR 84,82% dibanding 90,03%. | Memakai versi konferensi; tidak mengutip angka 69 dari versi lama. [Sumber](https://proceedings.iclr.cc/paper_files/paper/2025/file/582d4e27fa24168f3af1f4582655034b-Paper-Conference.pdf) |
 | QASecClaw | Bagian III-C menyatakan jalur bukti dinamis tidak aktif pada OWASP Benchmark. Bagian implementasi menyebut Qwen 3.5 Plus. | Memisahkan arsitektur yang ditawarkan dari jalur yang diuji. Tidak menganggap seluruh temuan terbukti melalui exploit. [Sumber](https://arxiv.org/pdf/2605.01885) |
 | Pertahanan komentar | Thornton melaporkan efek agregat komentar adversarial tidak signifikan pada pengujian berpasangan; comment stripping dapat merugikan model yang lebih lemah. | Sanitizer menjadi hipotesis yang diuji lewat ablasi, bukan pertahanan yang dijamin efektif. [Sumber](https://arxiv.org/pdf/2602.16741) |
-| Jenis kode studi multi-tool | Sriram et al., bagian 4–6: GCC, CodeQL, KLEE; tugas C/C++ pendek. | Tidak memindahkan perangkat uji atau angka perbaikan langsung ke Python. [Sumber](https://arxiv.org/pdf/2601.00509v1) |
+| Jenis kode studi multi-tool | Sriram dkk., bagian 4–6: GCC, CodeQL, KLEE; tugas C/C++ pendek. | Tidak memindahkan perangkat uji atau angka perbaikan langsung ke Python. [Sumber](https://arxiv.org/pdf/2601.00509v1) |
 | CodeSecEval | v2 2024 berbeda dari v3 September 2026, termasuk judul, penulis, jumlah tugas/CWE, dan penambahan SecAwareCoder. | Kedua versi dicatat terpisah; revisi baru diperlakukan sebagai pembanding yang perlu diaudit. [v2](https://arxiv.org/abs/2407.02395v2), [v3](https://arxiv.org/abs/2407.02395v3) |
 | AutoPatch | Abstrak revisi membedakan F1 verifikasi dari accuracy patching. | Angka patching tidak disebut F1 dan tidak dipakai sebagai perbandingan langsung. [Sumber](https://arxiv.org/abs/2505.04195) |
 | Kebaruan gerbang | Multi-LLMSecCodeEval mencakup generasi–deteksi–patching; Refute-or-Promote sudah membahas review dengan gerbang bertahap. | Tidak menyebut pipeline atau keberadaan gerbang sebagai kebaruan tersendiri. [Multi-LLMSecCodeEval](https://arxiv.org/abs/2603.22717), [Refute-or-Promote](https://arxiv.org/abs/2604.19049) |
@@ -35,7 +35,7 @@ Irisan label Python dengan SecurityEval adalah CWE-20, 22, 78, 79, 89, 200, 306,
 
 ### [VERIFIKASI V03] Rekonsiliasi 81 prompt studi tujuh LLM dengan 83 label Python
 
-**Status: perbedaan ditemukan; penyebab belum ditentukan.** Morkonda et al. bagian 3.2 dan Tabel 1 menyebut subset **81 prompt Python**. Snapshot resmi saat pemeriksaan memiliki **83** entri berlabel Python. Jangan menyimpulkan dua entri merupakan kesalahan atau duplikasi tanpa membandingkan ID, commit, dan aturan seleksi studi tersebut. Nama produk LLM tidak selalu mengidentifikasi versi model backend; keterbatasan ini juga perlu dicatat bila mereplikasi.
+**Status: perbedaan ditemukan; penyebab belum ditentukan.** Morkonda dkk. bagian 3.2 dan Tabel 1 menyebut subset **81 prompt Python**. Snapshot resmi saat pemeriksaan memiliki **83** entri berlabel Python. Jangan menyimpulkan dua entri merupakan kesalahan atau duplikasi tanpa membandingkan ID, commit, dan aturan seleksi studi tersebut. Nama produk LLM tidak selalu mengidentifikasi versi model backend; keterbatasan ini juga perlu dicatat bila mereplikasi.
 
 ### [VERIFIKASI V04] Audit CodeSecEval / SecAwareCoder dan ketersediaan pengujian
 
@@ -55,7 +55,7 @@ Irisan label Python dengan SecurityEval adalah CWE-20, 22, 78, 79, 89, 200, 306,
 
 ### [VERIFIKASI V08] Selesaikan identitas kandidat yang belum terkonfirmasi
 
-**Status: belum selesai; sumber tidak dipakai sebagai bukti dalam prosa.** Tindak lanjuti LLM4SA, studi Semgrep*, Du et al. tentang debat, Greshake et al. 2023, Liu et al. 2024, Pearce et al. tentang Copilot, Chen et al. tentang Self-Debugging, Olausson et al. tentang Self-Repair, serta judul parsial *Talk Isn't Always Cheap*, *More Rounds, More Noise*, dan *When Collaboration Fails*. Periksa juga identitas skripsi *Communicative agents for code security*. Sumber primer paket halusinasi USENIX 2025 diperlukan hanya bila agen dependensi ditambahkan.
+**Status: belum selesai; sumber tidak dipakai sebagai bukti dalam prosa.** Tindak lanjuti LLM4SA, studi Semgrep*, Du dkk. tentang debat, Greshake dkk. 2023, Liu dkk. 2024, Pearce dkk. tentang Copilot, Chen dkk. tentang Self-Debugging, Olausson dkk. tentang Self-Repair, serta judul parsial *Talk Isn't Always Cheap*, *More Rounds, More Noise*, dan *When Collaboration Fails*. Periksa juga identitas skripsi *Communicative agents for code security*. Sumber primer paket halusinasi USENIX 2025 diperlukan hanya bila agen dependensi ditambahkan.
 
 MAVUL dan Your AI, My Shell sudah ditemukan pada sumber primer, sehingga keduanya tidak lagi bergantung pada EmergentMind. CodeSecEval juga sudah ditemukan pada arXiv. Lihat status masing-masing pada daftar pustaka kandidat. Jangan mengisi penulis/tahun/DOI kandidat lain melalui dugaan atau menyitir ringkasan sekunder sebagai hasil primer.
 
