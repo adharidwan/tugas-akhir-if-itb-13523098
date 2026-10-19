@@ -6,14 +6,18 @@ Diunduh pada 18 Oktober 2026. Versi yang disebutkan secara eksplisit pada daftar
 
 ## Bahan kerja Bab 2
 
-Draf diperbarui pada 19 Oktober 2026 berdasarkan brief penulisan dan pemeriksaan sumber primer. Status berikut membedakan pemeriksaan metadata, pembacaan bagian relevan, serta hal yang masih terbuka.
+Draf diperbarui pada 20 Oktober 2026. Bab 2 memuat 2.1–2.5 dengan sitasi APA dan bibliografi. Seluruh penanda draf telah ditangani melalui pemeriksaan sumber, koreksi, pembatasan klaim, atau pemindahan rancangan ke catatan pribadi. Implementasi dan eksperimen gate belum dijalankan.
 
 - [Draf Bab 2 dalam Typst](../chapters/02-studi-literatur.typ)
 - [Pratinjau PDF khusus Bab 2](../output/pdf/bab-2-tinjauan-pustaka.pdf)
 - [Daftar pustaka kandidat dan status verifikasi](bab2-daftar-pustaka-kandidat.md)
-- [Koreksi sumber dan daftar verifikasi penulis](bab2-verifikasi.md)
-- [Metadata sumber primer](bab2-metadata-sumber.json)
+- [Hasil pemeriksaan V01–V17](bab2-verifikasi.md)
+- [Catatan pribadi: bekas 2.6 dan rancangan eksperimen](../notes/bab2-catatan-pribadi.md)
+- [Bibliografi yang dipakai naskah](../references.bib)
+- [Metadata sumber primer mentah](bab2-metadata-sumber.json)
+- [Metadata publikasi setelah pemeriksaan](bab2-metadata-terverifikasi.json)
 - [Snapshot penghitungan dataset](bab2-snapshot-dataset.json)
+- [Skrip penghitungan dataset](../scripts/audit_bab2_datasets.py)
 
 ## Wajib baca penuh: pembanding terdekat
 
@@ -61,7 +65,7 @@ Draf diperbarui pada 19 Oktober 2026 berdasarkan brief penulisan dan pemeriksaan
 
    [PDF lokal, 24 halaman](05-reasonvul-2605.18153.pdf) | [Sumber: arXiv 2605.18153](https://arxiv.org/pdf/2605.18153)
 
-   DOI versi ACM yang dicantumkan pada daftar awal: [10.1145/3808197](https://doi.org/10.1145/3808197). DOI ini belum terverifikasi; berkas lokal adalah preprint arXiv, bukan unduhan versi ACM.
+   DOI versi ACM yang dicantumkan pada daftar awal: [10.1145/3808197](https://doi.org/10.1145/3808197). Judul, penulis, dan metadata publikasi DOI ini telah cocok dengan Crossref pada 20 Oktober 2026. Berkas lokal tetap merupakan preprint arXiv, bukan unduhan versi ACM.
 
 6. **VulTrial**
 
@@ -108,3 +112,9 @@ Draf diperbarui pada 19 Oktober 2026 berdasarkan brief penulisan dan pemeriksaan
     Rujukan serangan berbasis komentar kode terhadap reviewer LLM dan evaluasi pertahanannya.
 
     [PDF lokal, 19 halaman](10-llm-code-reviewer-attacks-2602.16741.pdf) | [Sumber: arXiv 2602.16741](https://arxiv.org/pdf/2602.16741)
+
+## Gaya bibliografi
+
+[apa.csl](apa.csl) diadaptasi dari [APA Style 7th edition pada repositori Citation Style Language](https://github.com/citation-style-language/styles/blob/master/apa.csl), versi 7 Februari 2026, karya Brenton M. Wiernik, Andrew Dunning, dan kontributor yang tercantum dalam berkas. Lisensi [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) tetap berlaku untuk adaptasi ini.
+
+Perubahan lokal pada 20 Oktober 2026 menggunakan akhiran tahun (misalnya 2026a/2026b) untuk label singkat yang bertabrakan. Perluasan nama dalam proses disambiguasi dinonaktifkan karena pada Typst 0.15.0 membuat beberapa nama dalam bibliografi menjadi singkatan. Metadata nama lengkap tetap disimpan pada `references.bib`. Ini penyesuaian tampilan, bukan perubahan penulis atau tahun publikasi.

@@ -1,12 +1,15 @@
 {
   "securityeval": {
     "commit": "6f4fb70f782c6d47b02ea24341e8ef8c1eb04a6a",
+    "source_url": "https://raw.githubusercontent.com/s2e-lab/SecurityEval/6f4fb70f782c6d47b02ea24341e8ef8c1eb04a6a/dataset.jsonl",
+    "sha256": "4d8b85dfbee60636019ebc4fce23f9ff36aa460e12335a1328229270c48b95ae",
     "samples": 121,
-    "cwe_count": 69,
-    "sha256": "4d8b85dfbee60636019ebc4fce23f9ff36aa460e12335a1328229270c48b95ae"
+    "cwe_count": 69
   },
   "llmseceval": {
     "commit": "39e97f046dbb2c4c604d31b86f2a4d3d27827388",
+    "source_url": "https://raw.githubusercontent.com/tuhh-softsec/LLMSecEval/39e97f046dbb2c4c604d31b86f2a4d3d27827388/Dataset/LLMSecEval-Prompts_dataset.json",
+    "sha256": "a1b7307678e061faefb8d666eb6cec506d6a40751175716af07703b3f12433cc",
     "samples": 150,
     "cwe_count": 18,
     "languages": {
@@ -14,8 +17,59 @@
       "Python": 83
     },
     "python_samples": 83,
+    "python_unique_prompt_ids": 81,
     "python_cwe_count": 12,
-    "sha256": "a1b7307678e061faefb8d666eb6cec506d6a40751175716af07703b3f12433cc"
+    "python_duplicate_prompt_ids": {
+      "CWE-20_IIV-2b": 2,
+      "CWE-522_IPC-3a": 2
+    },
+    "python_duplicate_filenames": {},
+    "python_duplicate_manual_prompts": {},
+    "python_rows_per_cwe": {
+      "20": 6,
+      "22": 6,
+      "78": 3,
+      "79": 6,
+      "89": 9,
+      "200": 9,
+      "306": 7,
+      "434": 9,
+      "502": 9,
+      "522": 9,
+      "732": 3,
+      "798": 7
+    },
+    "python_unique_ids_per_cwe": {
+      "20": 5,
+      "22": 6,
+      "78": 3,
+      "79": 6,
+      "89": 9,
+      "200": 9,
+      "306": 7,
+      "434": 9,
+      "502": 9,
+      "522": 8,
+      "732": 3,
+      "798": 7
+    },
+    "python_non_py_filenames": [],
+    "id_collisions": [
+      {
+        "prompt_id": "CWE-20_IIV-2b",
+        "filenames": [
+          "experiments_dow/cwe-20/codeql-eg-IncompleteUrlSubstringSanitization/gen_scenario/experiments_dow_cwe-20_codeql-eg-IncompleteUrlSubstringSanitization_scenario_copilot_3.py",
+          "experiments_dow/cwe-20/codeql-eg-IncompleteUrlSubstringSanitization/gen_scenario/experiments_dow_cwe-20_codeql-eg-IncompleteUrlSubstringSanitization_scenario_copilot_0.py"
+        ]
+      },
+      {
+        "prompt_id": "CWE-522_IPC-3a",
+        "filenames": [
+          "missing/cwe-522/my-eg-1-c/gen_scenario/experiments_dow_cwe-522_my-eg-1-c_scenario_copilot_0.py",
+          "missing/cwe-522/my-eg-1-c/gen_scenario/experiments_dow_cwe-522_my-eg-1-c_scenario_copilot_1.py"
+        ]
+      }
+    ]
   },
   "shared_python_cwes": [
     20,
@@ -31,6 +85,6 @@
     732,
     798
   ],
-  "checked_on": "2026-10-19",
-  "method": "SecurityEval: count nonempty JSONL records; unique integer CWE prefix from ID. LLMSecEval: count JSON array records; unique integer CWE prefix from Prompt ID; filter Language.lower() == python. This is a snapshot count, not manual label validation or a final experiment subset."
+  "checked_on": "2026-10-20",
+  "method": "Count records and integer CWE prefixes; Python filter uses Language.lower(). Duplicate IDs are not assumed to be identical tasks. No code execution, manual label validation, or experiment-subset selection."
 }

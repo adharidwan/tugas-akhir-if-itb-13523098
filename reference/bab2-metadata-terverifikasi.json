@@ -1,0 +1,1010 @@
+[
+  {
+    "citation": "Agarwal, 2026",
+    "title": "Refute-or-Promote: An Adversarial Stage-Gated Multi-Agent Review Methodology for High-Precision LLM-Assisted Defect Discovery",
+    "authors": [
+      "Abhinav Agarwal"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2604.19049",
+    "primary_urls": [
+      "https://arxiv.org/abs/2604.19049"
+    ],
+    "assessment": "K; metode dan laporan kasus dibaca. Repositori berisi README dan catatan metode; bukan implementasi lengkap.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-01"
+  },
+  {
+    "citation": "Agrawal dan Ahi, 2025",
+    "title": "LLM-Driven SAST-Genius: A Hybrid Static Analysis Framework for Comprehensive and Actionable Security",
+    "authors": [
+      "Vaibhav Agrawal",
+      "Kiarash Ahi"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2509.15433",
+    "primary_urls": [
+      "https://arxiv.org/abs/2509.15433"
+    ],
+    "assessment": "K; bagian IV dan Tabel I: 25 repositori, Semgrep 1.97.0, Llama 3 8B yang di-fine-tune, 170 kerentanan acuan; FP 225 menjadi 20. Data pelatihan mencakup data proprietary; tidak direplikasi.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-02"
+  },
+  {
+    "citation": "Alrashedy dkk., 2024",
+    "title": "Can LLMs Patch Security Issues?",
+    "authors": [
+      "Kamel Alrashedy",
+      "Abdullah Aljasser",
+      "Pradyumna Tambwekar",
+      "Matthew Gombolay"
+    ],
+    "year": "2024",
+    "venue": "Preprint arXiv 2312.00024",
+    "primary_urls": [
+      "https://arxiv.org/abs/2312.00024"
+    ],
+    "assessment": "K; teks metode Bandit diperiksa. Tahun sitasi mengikuti revisi 2024; pertama diunggah 2023.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-04"
+  },
+  {
+    "citation": "Ameen dkk., 2026",
+    "title": "QASecClaw: A Multi-Agent LLM Approach for False Positive Reduction in Static Application Security Testing",
+    "authors": [
+      "Mohd Ruhul Ameen",
+      "Md Takrim Ul Alam",
+      "Akif Islam"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2605.01885",
+    "primary_urls": [
+      "https://arxiv.org/abs/2605.01885"
+    ],
+    "assessment": "K; bagian primer yang dipakai diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-05"
+  },
+  {
+    "citation": "Belozerov dkk., 2026",
+    "title": "Secure Coding with AI -- From Detection to Repair",
+    "authors": [
+      "Vladislav Belozerov",
+      "Peter J Barclay",
+      "Ashkan Sami"
+    ],
+    "year": "2026",
+    "venue": "Empirical Software Engineering 31, artikel 93 (2026)",
+    "primary_urls": [
+      "https://link.springer.com/article/10.1007/s10664-026-10812-8"
+    ],
+    "assessment": "K; metadata jurnal dan metode/hasil pada halaman penerbit diperiksa. Tahun sitasi mengikuti jurnal 2026.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-06"
+  },
+  {
+    "citation": "Bhatt dkk., 2023",
+    "title": "Purple Llama CyberSecEval: A Secure Coding Benchmark for Language Models",
+    "authors": [
+      "Manish Bhatt",
+      "Sahana Chennabasappa",
+      "Cyrus Nikolaidis",
+      "Shengye Wan",
+      "Ivan Evtimov",
+      "Dominik Gabi",
+      "Daniel Song",
+      "Faizan Ahmad",
+      "Cornelius Aschermann",
+      "Lorenzo Fontana",
+      "Sasha Frolov",
+      "Ravi Prakash Giri",
+      "Dhaval Kapil",
+      "Yiannis Kozyrakis",
+      "David LeBlanc",
+      "James Milazzo",
+      "Aleksandar Straumann",
+      "Gabriel Synnaeve",
+      "Varun Vontimitta",
+      "Spencer Whitman",
+      "Joshua Saxe"
+    ],
+    "year": "2023",
+    "venue": "Preprint arXiv 2312.04724v1",
+    "primary_urls": [
+      "https://arxiv.org/abs/2312.04724v1"
+    ],
+    "assessment": "K; bagian primer yang dipakai diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-07"
+  },
+  {
+    "citation": "Blyth dkk., 2025",
+    "title": "Static Analysis as a Feedback Loop: Enhancing LLM-Generated Code Beyond Correctness",
+    "authors": [
+      "Scott Blyth",
+      "Sherlock A. Licorish",
+      "Christoph Treude",
+      "Markus Wagner"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2508.14419",
+    "primary_urls": [
+      "https://arxiv.org/abs/2508.14419"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-08"
+  },
+  {
+    "citation": "Chen dkk., 2025",
+    "title": "Security of Language Models for Code: A Systematic Literature Review",
+    "authors": [
+      "Yuchen Chen",
+      "Weisong Sun",
+      "Chunrong Fang",
+      "Zhenpeng Chen",
+      "Yifei Ge",
+      "Tingxu Han",
+      "Quanjun Zhang",
+      "Yang Liu",
+      "Zhenyu Chen",
+      "Baowen Xu"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2410.15631",
+    "primary_urls": [
+      "https://arxiv.org/abs/2410.15631"
+    ],
+    "assessment": "M; tahun mengikuti revisi 2025; unggahan awal 2024. Tidak dipakai untuk persentase hasil baru.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-09"
+  },
+  {
+    "citation": "Hariharan dkk., 2024",
+    "title": "Rethinking CyberSecEval: An LLM-Aided Approach to Evaluation Critique",
+    "authors": [
+      "Suhas Hariharan",
+      "Zainab Ali Majid",
+      "Jaime Raldua Veuthey",
+      "Jacob Haimes"
+    ],
+    "year": "2024",
+    "venue": "Preprint arXiv 2411.08813",
+    "primary_urls": [
+      "https://arxiv.org/abs/2411.08813"
+    ],
+    "assessment": "K; bagian primer yang dipakai diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-11"
+  },
+  {
+    "citation": "Iranmanesh dkk., 2025",
+    "title": "ZeroFalse: Improving Precision in Static Analysis with LLMs",
+    "authors": [
+      "Mohsen Iranmanesh",
+      "Sina Moradi Sabet",
+      "Sina Marefat",
+      "Ali Javidi Ghasr",
+      "Allison Wilson",
+      "Iman Sharafaldin",
+      "Mohammad A. Tayebi"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2510.02534v1",
+    "primary_urls": [
+      "https://arxiv.org/abs/2510.02534v1"
+    ],
+    "assessment": "M; metadata, abstrak, dan uraian peran primer diperiksa; hasil rinci belum diaudit.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-12"
+  },
+  {
+    "citation": "J. Wang dkk., 2024",
+    "title": "Is Your AI-Generated Code Really Safe? Evaluating Large Language Models on Secure Code Generation with CodeSecEval",
+    "authors": [
+      "Jiexin Wang",
+      "Xitong Luo",
+      "Liuwen Cao",
+      "Hongkui He",
+      "Hailin Huang",
+      "Jiayuan Xie",
+      "Adam Jatowt",
+      "Yi Cai"
+    ],
+    "year": "2024",
+    "venue": "Preprint arXiv 2407.02395v2",
+    "primary_urls": [
+      "https://arxiv.org/abs/2407.02395v2"
+    ],
+    "assessment": "M; versi historis v2, 180 sampel/44 jenis kerentanan; dipakai hanya untuk membedakan versi.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-13"
+  },
+  {
+    "citation": "J. Wang dkk., 2026",
+    "title": "Toward Secure Code Generation: Bridging Correctness and Security via Task-Adaptive Vulnerability Modeling and Execution-Based Benchmarking",
+    "authors": [
+      "Jiexin Wang",
+      "Liuwen Cao",
+      "Xitong Luo",
+      "Yang Cao",
+      "Zhenghao Li",
+      "Yunyi Xiao",
+      "Mengchen Zhao",
+      "Adam Jatowt",
+      "Yi Cai"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2407.02395v3",
+    "primary_urls": [
+      "https://arxiv.org/abs/2407.02395v3"
+    ],
+    "assessment": "K; PDF v3 bagian metode, evaluasi, dan ketersediaan data diperiksa. Hugging Face menampilkan 255 baris; repositori menyatakan kode SecAwareCoder belum dirilis per 20 Oktober 2026.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-14"
+  },
+  {
+    "citation": "Karanjai dkk., 2025",
+    "title": "Securing Smart Contract Languages with a Unified Agentic Framework for Vulnerability Repair in Solidity and Move",
+    "authors": [
+      "Rabimba Karanjai",
+      "Lei Xu",
+      "Weidong Shi"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2502.18515",
+    "primary_urls": [
+      "https://arxiv.org/abs/2502.18515"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa. Kandidat; tidak dikutip pada prosa utama.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Khanmohammadi dkk., 2026",
+    "title": "WildCode Revisited: A Comprehensive Empirical Study on the Security of LLM-Generated Code",
+    "authors": [
+      "Kobra Khanmohammadi",
+      "Pooria Roy",
+      "Raphael Khoury",
+      "Abdelwahab Hamou-Lhadj",
+      "Wilfried Patrick Konan",
+      "Alexander Da Re",
+      "Nicholas Rebelo Melo"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2512.04259",
+    "primary_urls": [
+      "https://arxiv.org/abs/2512.04259"
+    ],
+    "assessment": "M; tahun mengikuti revisi 2026; unggahan awal 2025.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-15"
+  },
+  {
+    "citation": "Kharma dkk., 2026",
+    "title": "An Empirical Evaluation of LLM-Generated Code Security Across Prompting Methods",
+    "authors": [
+      "Mohammed Kharma",
+      "Ahmed Sabbah",
+      "Mohammad Alkhanafseh",
+      "Mohammad Hammoudeh",
+      "David Mohaisen"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2605.24298",
+    "primary_urls": [
+      "https://arxiv.org/abs/2605.24298"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-16"
+  },
+  {
+    "citation": "Lin dan Yu, 2026",
+    "title": "PhantomSkill: Malicious Code Injection in Agent Skill Ecosystems",
+    "authors": [
+      "Yu-Ting Lin",
+      "Chia-Mu Yu"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2606.19191",
+    "primary_urls": [
+      "https://arxiv.org/abs/2606.19191"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-17"
+  },
+  {
+    "citation": "Liu dkk., 2026",
+    "title": "\"Your AI, My Shell\": Demystifying Prompt Injection Attacks on Agentic AI Coding Editors",
+    "authors": [
+      "Yue Liu",
+      "Yanjie Zhao",
+      "Yunbo Lyu",
+      "Ting Zhang",
+      "Haoyu Wang",
+      "David Lo"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2509.22040",
+    "primary_urls": [
+      "https://arxiv.org/abs/2509.22040"
+    ],
+    "assessment": "M; sumber primer menggantikan EmergentMind; tahun mengikuti revisi 2026.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-19"
+  },
+  {
+    "citation": "Maloyan dan Namiot, 2025",
+    "title": "Adversarial Attacks on LLM-as-a-Judge Systems: Insights from Prompt Injections",
+    "authors": [
+      "Narek Maloyan",
+      "Dmitry Namiot"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2504.18333",
+    "primary_urls": [
+      "https://arxiv.org/abs/2504.18333"
+    ],
+    "assessment": "M; metadata, abstrak, dan uraian peran primer diperiksa; hasil rinci belum diaudit.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-20"
+  },
+  {
+    "citation": "Morkonda dkk., 2026",
+    "title": "Security of LLM-generated Code: A Comparative Analysis",
+    "authors": [
+      "Srivathsan G Morkonda",
+      "Mahmoud Selim",
+      "Hala Assal"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2605.23091",
+    "primary_urls": [
+      "https://arxiv.org/abs/2605.23091"
+    ],
+    "assessment": "K; bagian primer yang dipakai diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-21"
+  },
+  {
+    "citation": "Nunez dkk., 2024",
+    "title": "AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation through Static Analysis and Fuzz Testing",
+    "authors": [
+      "Ana Nunez",
+      "Nafis Tanveer Islam",
+      "Sumit Jha",
+      "Paul Rad"
+    ],
+    "year": "2024",
+    "venue": "Preprint arXiv 2409.10737v1",
+    "primary_urls": [
+      "https://arxiv.org/abs/2409.10737v1"
+    ],
+    "assessment": "K; metode 3.2, setup 4.2, Tabel 1 diperiksa. Reviewer LLM berbeda dari penilai Bandit; pass@1 turun. Nama pada PDF v1 dipakai.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-22"
+  },
+  {
+    "citation": "P. Wang dkk., 2026",
+    "title": "The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis",
+    "authors": [
+      "Peiran Wang",
+      "Xinfeng Li",
+      "Chong Xiang",
+      "Jinghuai Zhang",
+      "Ying Li",
+      "Lixia Zhang",
+      "Xiaofeng Wang",
+      "Yuan Tian"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2602.10453",
+    "primary_urls": [
+      "https://arxiv.org/abs/2602.10453"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-24"
+  },
+  {
+    "citation": "Peng dkk., 2026",
+    "title": "Three Heads Are Better Than One: A Multi-perspective Reasoning Framework for Enhanced Vulnerability Detection",
+    "authors": [
+      "Xin Peng",
+      "Bo Lin",
+      "Jing Wang",
+      "Xiaoling Li",
+      "Jun Ma",
+      "Jie Yu",
+      "Xiaoguang Mao",
+      "Shangwen Wang"
+    ],
+    "year": "2026",
+    "venue": "Proceedings of the ACM on Software Engineering 3 (FSE), 4323–4346; teks yang dibaca: arXiv",
+    "primary_urls": [
+      "https://arxiv.org/abs/2605.18153",
+      "https://doi.org/10.1145/3808197"
+    ],
+    "assessment": "K; teks analisis konflik diperiksa; DOI, penulis, dan publikasi 30 Juni 2026 cocok dengan metadata Crossref.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-25"
+  },
+  {
+    "citation": "Raj dan Sahu, 2026",
+    "title": "Names Can Hurt: Spotting Slopsquatting Risks Caused by Package Name Hallucinations in Local Coding LLMs",
+    "authors": [
+      "Akash Raj",
+      "Sargam Sahu"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2608.23897",
+    "primary_urls": [
+      "https://arxiv.org/abs/2608.23897"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa. Kandidat; tidak dikutip pada prosa utama.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Ravi dkk., 2025",
+    "title": "LLMLOOP: Improving LLM-Generated Code and Tests through Automated Iterative Feedback Loops",
+    "authors": [
+      "Ravin Ravi",
+      "Dylan Bradshaw",
+      "Stefano Ruberto",
+      "Gunel Jahangirova",
+      "Valerio Terragni"
+    ],
+    "year": "2025",
+    "venue": "ICSME 2025, 930–934; preprint diunggah pada 2026",
+    "primary_urls": [
+      "https://arxiv.org/abs/2603.23613",
+      "https://doi.org/10.1109/ICSME64153.2025.00109"
+    ],
+    "assessment": "K; PDF dibaca; tahun konferensi, judul, dan penulis cocok dengan Crossref. Tahun sitasi mengikuti publikasi final.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-27"
+  },
+  {
+    "citation": "Sabir dkk., 2026",
+    "title": "Does Teaming-Up LLMs Improve Secure Code Generation? A Comprehensive Evaluation with Multi-LLMSecCodeEval",
+    "authors": [
+      "Bushra Sabir",
+      "Shigang Liu",
+      "Seung Ick Jang",
+      "Sharif Abuadbba",
+      "Yansong Gao",
+      "Kristen Moore",
+      "SangCheol Kim",
+      "Hyoungshick Kim",
+      "Surya Nepal"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2603.22717",
+    "primary_urls": [
+      "https://arxiv.org/abs/2603.22717"
+    ],
+    "assessment": "K; bagian hasil dan Tabel 4 diperiksa. Konfigurasi model dibedakan; persentase lintas-konfigurasi tidak digabung atau dianggap saling melengkapi.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-28"
+  },
+  {
+    "citation": "Seo dkk., 2025",
+    "title": "AutoPatch: Multi-Agent Framework for Patching Real-World CVEs Generated by Outdated LLMs",
+    "authors": [
+      "Minjae Seo",
+      "Wonwoo Choi",
+      "Seungwon Shin",
+      "Myoungsung You"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2505.04195",
+    "primary_urls": [
+      "https://arxiv.org/abs/2505.04195"
+    ],
+    "assessment": "K; metode dan PDF revisi diperiksa. F1 verifikasi berbeda dari accuracy patching; angka tidak dipakai sebagai pembandingan langsung.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-29"
+  },
+  {
+    "citation": "Shahid dkk., 2025",
+    "title": "LLM-CSEC: Empirical Evaluation of Security in C/C++ Code Generated by Large Language Models",
+    "authors": [
+      "Muhammad Usman Shahid",
+      "Chuadhry Mujeeb Ahmed",
+      "Rajiv Ranjan"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2511.18966v1",
+    "primary_urls": [
+      "https://arxiv.org/abs/2511.18966v1"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-30"
+  },
+  {
+    "citation": "Sriram dkk., 2026",
+    "title": "Improving LLM-Assisted Secure Code Generation through Retrieval-Augmented-Generation and Multi-Tool Feedback",
+    "authors": [
+      "Vidyut Sriram",
+      "Sawan Pandita",
+      "Achintya Lakshmanan",
+      "Aneesh Shamraj",
+      "Suman Saha"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2601.00509v1",
+    "primary_urls": [
+      "https://arxiv.org/abs/2601.00509v1"
+    ],
+    "assessment": "K; bagian primer yang dipakai diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-32"
+  },
+  {
+    "citation": "Tang dkk., 2024",
+    "title": "CodeAgent: Autonomous Communicative Agents for Code Review",
+    "authors": [
+      "Xunzhu Tang",
+      "Kisub Kim",
+      "Yewei Song",
+      "Cedric Lothritz",
+      "Bei Li",
+      "Saad Ezzini",
+      "Haoye Tian",
+      "Jacques Klein",
+      "Tegawendé F. Bissyandé"
+    ],
+    "year": "2024",
+    "venue": "EMNLP 2024, 11279–11313",
+    "primary_urls": [
+      "https://aclanthology.org/2024.emnlp-main.632/"
+    ],
+    "assessment": "K; judul final dan nama Xunzhu Tang mengikuti prosiding ACL, bukan metadata preprint lama.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-33"
+  },
+  {
+    "citation": "Thornton, 2026",
+    "title": "Can Adversarial Code Comments Fool AI Security Reviewers -- Large-Scale Empirical Study of Comment-Based Attacks and Defenses Against LLM Code Analysis",
+    "authors": [
+      "Scott Thornton"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2602.16741",
+    "primary_urls": [
+      "https://arxiv.org/abs/2602.16741"
+    ],
+    "assessment": "K; bagian primer yang dipakai diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-34"
+  },
+  {
+    "citation": "Tony dkk., 2023",
+    "title": "LLMSecEval: A Dataset of Natural Language Prompts for Security Evaluations",
+    "authors": [
+      "Catherine Tony",
+      "Markus Mutas",
+      "Nicolás E. Díaz Ferreyra",
+      "Riccardo Scandariato"
+    ],
+    "year": "2023",
+    "venue": "Preprint arXiv 2303.09384v1",
+    "primary_urls": [
+      "https://arxiv.org/abs/2303.09384v1"
+    ],
+    "assessment": "K; metadata serta snapshot primer diperiksa: 150 baris, 83 Python, 81 Prompt ID Python unik. Dua tabrakan ID memiliki prompt dan Filename berbeda.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-35"
+  },
+  {
+    "citation": "Tsigkourakos dan Patsakis, 2026",
+    "title": "QRS: A Rule-Synthesizing Neuro-Symbolic Triad for Autonomous Vulnerability Discovery",
+    "authors": [
+      "George Tsigkourakos",
+      "Constantinos Patsakis"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2602.09774v1",
+    "primary_urls": [
+      "https://arxiv.org/abs/2602.09774v1"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-36"
+  },
+  {
+    "citation": "Wang, 2026",
+    "title": "Strategic Heterogeneous Multi-Agent Architecture for Cost-Effective Code Vulnerability Detection",
+    "authors": [
+      "Zhaohui Geoffrey Wang"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2604.21282",
+    "primary_urls": [
+      "https://arxiv.org/abs/2604.21282"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-37"
+  },
+  {
+    "citation": "Widyasari dkk., 2025",
+    "title": "Let the Trial Begin: A Mock-Court Approach to Vulnerability Detection using LLM-Based Agents",
+    "authors": [
+      "Ratnadira Widyasari",
+      "Martin Weyssow",
+      "Ivana Clairine Irsan",
+      "Han Wei Ang",
+      "Frank Liauw",
+      "Eng Lieh Ouh",
+      "Lwin Khin Shar",
+      "Hong Jin Kang",
+      "David Lo"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2505.10961v2",
+    "primary_urls": [
+      "https://arxiv.org/abs/2505.10961v2"
+    ],
+    "assessment": "M; metadata, abstrak, dan uraian peran primer diperiksa; hasil rinci belum diaudit.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-38"
+  },
+  {
+    "citation": "Y. Li dkk., 2025",
+    "title": "MAVUL: Multi-Agent Vulnerability Detection via Contextual Reasoning and Interactive Refinement",
+    "authors": [
+      "Youpeng Li",
+      "Kartik Joshi",
+      "Xinda Wang",
+      "Eric Wong"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2510.00317v1; penerimaan IEEE TPS 2025 menurut laman penulis",
+    "primary_urls": [
+      "https://arxiv.org/abs/2510.00317v1"
+    ],
+    "assessment": "K; PDF metode dan kode evaluation_agent.py diperiksa. Agen evaluasi memakai ground truth saat penilaian, bukan arbiter gate tanpa label acuan.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-40"
+  },
+  {
+    "citation": "Yan dkk., 2025",
+    "title": "Guiding AI to Fix Its Own Flaws: An Empirical Study on LLM-Driven Secure Code Generation",
+    "authors": [
+      "Hao Yan",
+      "Swapneel Suhas Vaidya",
+      "Xiaokuan Zhang",
+      "Ziyu Yao"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2506.23034v1",
+    "primary_urls": [
+      "https://arxiv.org/abs/2506.23034v1"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa. Kandidat; tidak dikutip pada prosa utama.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Yang dkk., 2024",
+    "title": "TAPI: Towards Target-Specific and Adversarial Prompt Injection against Code LLMs",
+    "authors": [
+      "Yuchen Yang",
+      "Hongwei Yao",
+      "Bingrun Yang",
+      "Yiling He",
+      "Yiming Li",
+      "Tianwei Zhang",
+      "Zhan Qin",
+      "Kui Ren"
+    ],
+    "year": "2024",
+    "venue": "Preprint arXiv 2407.09164v3",
+    "primary_urls": [
+      "https://arxiv.org/abs/2407.09164v3"
+    ],
+    "assessment": "M; metadata dan abstrak primer diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-41"
+  },
+  {
+    "citation": "Z. Li dkk., 2025",
+    "title": "IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities",
+    "authors": [
+      "Ziyang Li",
+      "Saikat Dutta",
+      "Mayur Naik"
+    ],
+    "year": "2025",
+    "venue": "ICLR 2025; PDF prosiding",
+    "primary_urls": [
+      "https://proceedings.iclr.cc/paper_files/paper/2025/hash/582d4e27fa24168f3af1f4582655034b-Abstract-Conference.html"
+    ],
+    "assessment": "K; bagian primer yang dipakai diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-42"
+  },
+  {
+    "citation": "Siddiq dan Santos, 2022",
+    "title": "SecurityEval Dataset: Mining Vulnerability Examples to Evaluate Machine Learning-Based Code Generation Techniques",
+    "authors": [
+      "Mohammed Latif Siddiq",
+      "Joanna C. S. Santos"
+    ],
+    "year": "2022",
+    "venue": "MSR4P&S 2022, 29–33; DOI 10.1145/3549035.3561184",
+    "primary_urls": [
+      "https://doi.org/10.1145/3549035.3561184",
+      "https://github.com/s2e-lab/SecurityEval"
+    ],
+    "assessment": "K; metadata dan hitungan snapshot terkonfirmasi: 121 baris, 69 label CWE. Hitungan bukan validasi manual label.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-31"
+  },
+  {
+    "citation": "Agyekum dan Santos, 2026",
+    "title": "Does Fixing Break Security? An Empirical Study of Security Degradation in Iterative LLM-Driven Infrastructure-As-Code Repair",
+    "authors": [
+      "Benjamin Agyekum",
+      "Fabio Santos"
+    ],
+    "year": "2026",
+    "venue": "ESEM 2026; LIPIcs 394, 50:1–50:20; DOI 10.4230/LIPIcs.ESEM.2026.50",
+    "primary_urls": [
+      "https://doi.org/10.4230/LIPIcs.ESEM.2026.50"
+    ],
+    "assessment": "K terbatas; abstrak serta pendahuluan primer diperiksa, termasuk pembedaan artefak pengukuran dan regresi. Tidak dipakai untuk memprediksi tingkat regresi Python.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-03"
+  },
+  {
+    "citation": "Wen dkk., 2024",
+    "title": "Automatically Inspecting Thousands of Static Bug Warnings with Large Language Model: How Far Are We?",
+    "authors": [
+      "Cheng Wen",
+      "Yuandao Cai",
+      "Bin Zhang",
+      "Jie Su",
+      "Zhiwu Xu",
+      "Dugang Liu",
+      "Shengchao Qin",
+      "Zhong Ming",
+      "Tian Cong"
+    ],
+    "year": "2024",
+    "venue": "ACM Transactions on Knowledge Discovery from Data 18(7), 1–34",
+    "primary_urls": [
+      "https://doi.org/10.1145/3653718"
+    ],
+    "assessment": "M; identitas LLM4SA cocok dengan metadata DOI penerbit melalui Crossref; tidak dipakai untuk angka rinci.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Bennett dkk., 2024",
+    "title": "Semgrep*: Improving the Limited Performance of Static Application Security Testing (SAST) Tools",
+    "authors": [
+      "Gareth Bennett",
+      "Tracy Hall",
+      "Emily Winter",
+      "Steve Counsell"
+    ],
+    "year": "2024",
+    "venue": "EASE 2024; DOI 10.1145/3661167.3661262",
+    "primary_urls": [
+      "https://bura.brunel.ac.uk/bitstream/2438/30374/1/FullText.pdf"
+    ],
+    "assessment": "K; PDF primer dan identitas diperiksa; kandidat pendukung SAST, tidak dikutip pada prosa utama.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Du dkk., 2023",
+    "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "authors": [
+      "Yilun Du",
+      "Shuang Li",
+      "Antonio Torralba",
+      "Joshua B. Tenenbaum",
+      "Igor Mordatch"
+    ],
+    "year": "2023",
+    "venue": "Preprint arXiv 2305.14325",
+    "primary_urls": [
+      "https://arxiv.org/abs/2305.14325"
+    ],
+    "assessment": "K; metadata dan PDF metode diperiksa; tahun mengikuti unggahan preprint.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Greshake dkk., 2023",
+    "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+    "authors": [
+      "Kai Greshake",
+      "Sahar Abdelnabi",
+      "Shailesh Mishra",
+      "Christoph Endres",
+      "Thorsten Holz",
+      "Mario Fritz"
+    ],
+    "year": "2023",
+    "venue": "Preprint arXiv 2302.12173",
+    "primary_urls": [
+      "https://arxiv.org/abs/2302.12173"
+    ],
+    "assessment": "K; metadata dan uraian model ancaman pada PDF primer diperiksa.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-10"
+  },
+  {
+    "citation": "Liu dkk., 2024",
+    "title": "Formalizing and Benchmarking Prompt Injection Attacks and Defenses",
+    "authors": [
+      "Yupei Liu",
+      "Yuqi Jia",
+      "Runpeng Geng",
+      "Jinyuan Jia",
+      "Neil Zhenqiang Gong"
+    ],
+    "year": "2024",
+    "venue": "33rd USENIX Security Symposium, 1831–1847",
+    "primary_urls": [
+      "https://www.usenix.org/conference/usenixsecurity24/presentation/liu-yupei"
+    ],
+    "assessment": "K; halaman dan paper prosiding primer diperiksa. Berbeda dari Your AI, My Shell.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-18"
+  },
+  {
+    "citation": "Pearce dkk., 2021",
+    "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions",
+    "authors": [
+      "Hammond Pearce",
+      "Baleegh Ahmad",
+      "Benjamin Tan",
+      "Brendan Dolan-Gavitt",
+      "Ramesh Karri"
+    ],
+    "year": "2021",
+    "venue": "Preprint arXiv 2108.09293; tahun preprint dipertahankan",
+    "primary_urls": [
+      "https://arxiv.org/abs/2108.09293"
+    ],
+    "assessment": "M; identitas primer terkonfirmasi. Tahun 2022 pada brief tidak dipindahkan menjadi tahun preprint; angka tidak dikutip.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "X. Chen dkk., 2024",
+    "title": "Teaching Large Language Models to Self-Debug",
+    "authors": [
+      "Xinyun Chen",
+      "Maxwell Lin",
+      "Nathanael Schärli",
+      "Denny Zhou"
+    ],
+    "year": "2024",
+    "venue": "ICLR 2024; preprint 2304.05128 dari 2023",
+    "primary_urls": [
+      "https://openreview.net/pdf?id=KuPixIqPiq"
+    ],
+    "assessment": "K; metadata dan metode primer diperiksa; dibedakan dari tinjauan Yuchen Chen dkk.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Olausson dkk., 2024",
+    "title": "Is Self-Repair a Silver Bullet for Code Generation?",
+    "authors": [
+      "Theo X. Olausson",
+      "Jeevana Priya Inala",
+      "Chenglong Wang",
+      "Jianfeng Gao",
+      "Armando Solar-Lezama"
+    ],
+    "year": "2024",
+    "venue": "Preprint arXiv 2306.09896; revisi 2 Februari 2024",
+    "primary_urls": [
+      "https://arxiv.org/abs/2306.09896"
+    ],
+    "assessment": "K; PDF dan abstrak primer diperiksa. Temuan dibatasi pada biaya dan kualitas umpan balik self-repair.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-23"
+  },
+  {
+    "citation": "Wynn dkk., 2025",
+    "title": "Talk Isn't Always Cheap: Understanding Failure Modes in Multi-Agent Debate",
+    "authors": [
+      "Andrea Wynn",
+      "Harsh Satija",
+      "Gillian Hadfield"
+    ],
+    "year": "2025",
+    "venue": "Preprint arXiv 2509.05396; revisi 13 Oktober 2025",
+    "primary_urls": [
+      "https://arxiv.org/abs/2509.05396"
+    ],
+    "assessment": "K; metadata dan PDF primer diperiksa; hasil tugas penalaran tidak dipakai sebagai angka deteksi keamanan.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-39"
+  },
+  {
+    "citation": "Song Tae-Eun, 2026",
+    "title": "More Rounds, More Noise: Why Multi-Turn Review Fails to Improve Cross-Context Verification",
+    "authors": [
+      "Song Tae-Eun"
+    ],
+    "year": "2026",
+    "venue": "Preprint arXiv 2603.16244",
+    "primary_urls": [
+      "https://arxiv.org/abs/2603.16244"
+    ],
+    "assessment": "K; identitas dan PDF primer diperiksa. Bentuk nama dipertahankan tanpa menebak pemisahan nama keluarga.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Kraidia dkk., 2026",
+    "title": "When collaboration fails: persuasion driven adversarial influence in multi agent large language model debate",
+    "authors": [
+      "Insaf Kraidia",
+      "Iyas Qaddara",
+      "Alhanof Almutairi",
+      "Nada Alzaben",
+      "Samir Brahim Belhouari"
+    ],
+    "year": "2026",
+    "venue": "Scientific Reports 16, artikel 11640; 8 April 2026",
+    "primary_urls": [
+      "https://www.nature.com/articles/s41598-026-42705-7"
+    ],
+    "assessment": "K; halaman artikel penerbit dan metadata diperiksa; kandidat ketahanan debat.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Brnák, 2025",
+    "title": "Communicative agents for code security",
+    "authors": [
+      "Jakub Brnák"
+    ],
+    "year": "2025",
+    "venue": "Skripsi sarjana, Faculty of Information Technology, Brno University of Technology; pembelaan 19 Juni 2025",
+    "primary_urls": [
+      "https://www.vut.cz/en/students/final-thesis/detail/161680"
+    ],
+    "assessment": "M; identitas dan rekaman institusi terkonfirmasi. Skripsi tidak dianggap sebagai hasil konferensi peer-reviewed.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Spracklen dkk., 2025",
+    "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs",
+    "authors": [
+      "Joseph Spracklen",
+      "Raveen Wijewickrama",
+      "A H M Nazmus Sakib",
+      "Anindya Maiti",
+      "Bimal Viswanath",
+      "Murtuza Jadliwala"
+    ],
+    "year": "2025",
+    "venue": "34th USENIX Security Symposium, 3687–3706",
+    "primary_urls": [
+      "https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen"
+    ],
+    "assessment": "K; identitas dan sumber prosiding primer terkonfirmasi; disimpan sebagai kandidat di luar cakupan dependensi.",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "citation": "Python Software Foundation, tanpa tahun",
+    "title": "Data model: Callable types / user-defined functions",
+    "authors": [
+      "Python Software Foundation"
+    ],
+    "year": "Tanpa tahun",
+    "venue": "Dokumentasi Python 3.11; diakses 20 Oktober 2026",
+    "primary_urls": [
+      "https://docs.python.org/3.11/reference/datamodel.html#user-defined-functions"
+    ],
+    "assessment": "K; sumber tambahan primer. Atribut __doc__ diperiksa; tidak memberi tanggal publikasi yang tidak tersedia.",
+    "checked_on": "2026-10-20",
+    "bib_key": "bab2-26"
+  }
+]

@@ -9,6 +9,8 @@ Data mahasiswa dan pembimbing telah diisi di `main.typ`, serta identitas mahasis
 
 Sepuluh paper prioritas beserta PDF lengkap, urutan baca, dan tautan sumber tersedia di [reference/](reference/README.md).
 
+Bab 2 memuat bagian 2.1–2.5. Perbandingan dan posisi penelitian yang sebelumnya berada pada 2.6 disimpan sebagai [catatan pribadi](notes/bab2-catatan-pribadi.md). Penyelesaian 17 penanda draf beserta sumber dan batas klaimnya tercatat pada [hasil pemeriksaan Bab 2](reference/bab2-verifikasi.md).
+
 Menggunakan [template Typst TA IF ITB oleh DaDecky](https://github.com/DaDecky/Template-Proposal-dan-TA-IF-ITB-Typst). Panduan template asal tersedia di bawah ini.
 
 > ⚠️ **DISCLAIMER / WORK IN PROGRESS (WIP)**  

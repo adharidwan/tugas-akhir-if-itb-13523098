@@ -6,7 +6,7 @@
   numbering: "1",
   number-align: center + bottom,
 )
-#set text(font: "Liberation Serif", size: 12pt, lang: "id")
+#set text(font: "Times New Roman", size: 12pt, lang: "id")
 #set par(justify: true, leading: 1.25em, first-line-indent: (amount: 1.25cm, all: true))
 #set heading(numbering: (..nums) => {
   if nums.pos().len() == 1 {
@@ -19,7 +19,10 @@
   align(center)[
     #set par(first-line-indent: 0pt)
     #text(size: 14pt, weight: "bold")[
-      #counter(heading).display(it.numbering)\
+      #if it.numbering != none {
+        counter(heading).display(it.numbering)
+        linebreak()
+      }
       #upper(it.body)
     ]
   ]
@@ -31,3 +34,6 @@
 #show figure.where(kind: table): set figure(supplement: [Tabel])
 #counter(heading).update(1)
 #include "../../chapters/02-studi-literatur.typ"
+
+#pagebreak()
+#bibliography("../../references.bib", style: "../../reference/apa.csl", title: [DAFTAR PUSTAKA])

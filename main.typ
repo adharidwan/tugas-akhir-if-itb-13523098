@@ -1,6 +1,7 @@
 #import "template/if-thesis.typ": if-thesis, appendix
 
 #show: if-thesis.with(
+  font: "Times New Roman",
   title: "<JUDUL TUGAS AKHIR>",
   title-en: "<ENGLISH THESIS TITLE>",
   author: "Muhammad Adha Ridwan",
@@ -57,7 +58,7 @@
 // ==========================================
 
 #pagebreak()
-#bibliography("references.bib", style: "apa", title: [DAFTAR PUSTAKA])
+#bibliography("references.bib", style: "reference/apa.csl", title: [DAFTAR PUSTAKA])
 
 // ==========================================
 // LAMPIRAN
