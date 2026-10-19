@@ -32,8 +32,6 @@ Kedua dataset menyediakan bentuk tugas yang berbeda, yaitu pelengkapan kode dan 
 
 CodeSecEval menyediakan pembanding yang menggabungkan pengujian fungsi dan keamanan. Versi tahun 2024 memuat 180 sampel dan 44 jenis kerentanan, sedangkan revisi September 2026 memuat 255 tugas Python dengan 77 CWE #cite(<bab2-13>) #cite(<bab2-14>). Revisi tersebut memperkenalkan SecAwareCoder yang menghubungkan pemodelan ancaman sesuai tugas, pembuatan kode dengan batasan keamanan, pembuatan pengujian, dan perbaikan berdasarkan hasil eksekusi. Dataset revisi telah tersedia di Hugging Face. Namun, pada pemeriksaan 20 Oktober 2026, repositori resmi menyatakan bahwa kode SecAwareCoder belum dirilis. Pembandingan metode karena itu dibedakan dari replikasi implementasinya.
 
-*Sintesis dan Keterbatasan.* Berbagai penelitian menunjukkan bahwa kode hasil LLM masih dapat memiliki kelemahan meskipun berhasil menjalankan tugas. Namun, hasil pengujian dipengaruhi oleh model, bahasa, prompt, dataset, dan alat pemeriksa. Oleh karena itu, penelitian ini menggunakan batasan Python dan pilihan CWE yang jelas. Jumlah sampel, versi dataset, dan cara menentukan kerentanan perlu dicatat agar hasil pengujian dapat diperiksa kembali.
-
 == Pemeriksaan Kerentanan dengan SAST dan LLM
 
 === Pemeriksaan kode secara statis
@@ -61,8 +59,6 @@ Dalam rancangan penelitian ini, agen Analyse memeriksa kode dengan bantuan Semgr
 Jika beberapa alat melaporkan masalah yang sama, temuan perlu digabungkan agar satu kelemahan tidak dihitung berulang. Setiap hasil juga perlu dihubungkan dengan versi kode yang diperiksa. Setelah kode diperbaiki, hasil pemeriksaan versi sebelumnya tidak dapat langsung digunakan untuk menerima versi baru. Penjelasan LLM dapat membantu memahami masalah, tetapi tetap perlu dibedakan dari bukti hasil pengujian.
 
 Penilaian triase perlu dibedakan dari keputusan penerimaan kode. QASecClaw menunjukkan bahwa penyaringan peringatan dapat menurunkan false positive sekaligus mengurangi recall #cite(<bab2-05>). Karena itu, penolakan suatu temuan perlu disertai alasan dan bukti yang dapat ditelusuri. Aturan tingkat keparahan dan tindak lanjut merupakan bagian dari rancangan gate yang perlu dinilai dalam percobaan.
-
-*Sintesis dan Keterbatasan.* SAST membantu menemukan masalah melalui aturan yang dapat diperiksa, sedangkan LLM membantu menjelaskan konteks kode dan menyaring temuan yang keliru. Penggabungan keduanya berpotensi memperbaiki pemeriksaan, tetapi dapat pula menghilangkan temuan yang sebenarnya benar. Penelitian ini karena itu perlu menilai presisi dan recall secara bersamaan. Hasil pada proyek Java atau paket Python utuh juga belum tentu berlaku sama pada potongan kode Python hasil LLM.
 
 == Sistem Multi-Agen untuk Keamanan Kode
 
@@ -102,8 +98,6 @@ Kode yang diterima dapat diberi label _Verified_, dengan arti telah melewati pem
 
 Penggunaan beberapa model juga menambah biaya. Wang menggabungkan model layanan dengan pemeriksa lokal untuk menyeimbangkan hasil deteksi dan biaya #cite(<bab2-37>). Pada gate, biaya tidak hanya berasal dari pembuatan kode. Pemeriksaan, diskusi, pembuatan pengujian, dan perbaikan berulang turut memakai token serta waktu. Menjalankan beberapa agen bersamaan dapat memperpendek waktu tunggu, tetapi tidak selalu mengurangi jumlah penggunaan model.
 
-*Sintesis dan Keterbatasan.* Penelitian terdahulu telah membahas pembagian peran, diskusi antaragen, dan alur perbaikan kode. Namun, banyaknya agen dan kesepakatan pendapat belum menjamin hasil yang benar. Penelitian ini menempatkan aturan arbiter sebagai pengambil keputusan dan menggunakan bukti pemeriksaan sebagai dasar penilaiannya. Manfaat pembagian tugas, pilihan model, serta aturan tersebut perlu diuji bersama biaya dan waktu pemrosesan. Perbedaan tugas pembanding, ketersediaan kode, dan pemakaian label acuan juga membatasi perbandingan langsung.
-
 == Perbaikan Kode Otomatis
 
 === Perbaikan berdasarkan hasil pemeriksaan
@@ -132,8 +126,6 @@ Patch perlu melalui kembali pemeriksaan yang berlaku. Pengujian yang sebelumnya 
 
 Jumlah perbaikan perlu dibatasi agar proses tidak terus mengulang perubahan yang tidak menyelesaikan masalah. Jika batas tercapai, kode tidak langsung diterima. Arbiter menentukan tindak lanjut sesuai masalah yang masih tersisa. Begitu pula, kode yang belum dapat dijalankan tidak boleh dianggap telah lulus pengujian dinamis hanya karena tidak ada laporan kegagalan.
 
-*Sintesis dan Keterbatasan.* Hasil alat pemeriksa dan contoh patch dapat membantu model memperbaiki kode. Namun, setiap patch tetap perlu diuji kembali karena dapat mengubah fungsi atau menimbulkan kelemahan baru. Penelitian ini merencanakan Fixer terpisah, pemeriksaan ulang, dan batas ronde perbaikan. Keberhasilannya dinilai dari keamanan dan fungsi kode setelah perbaikan, bukan hanya dari berkurangnya peringatan alat.
-
 == Ketahanan Gate terhadap Serangan
 
 === Serangan pada agen pemeriksa
@@ -161,5 +153,3 @@ Manfaat sanitizer akan dinilai dengan membandingkan gate yang menggunakannya dan
 Selain keberhasilan serangan, pengujian perlu mencatat perubahan presisi, recall, dan jumlah kode rentan yang diterima. _Attack success rate_ adalah proporsi serangan yang mencapai tujuan pada kasus yang diuji. Perhitungannya perlu menjelaskan kasus mana yang masuk ke penyebut. Kelemahan yang memang tidak terdeteksi sejak awal perlu dibedakan dari kelemahan yang baru terlewat setelah komentar serangan ditambahkan.
 
 Aturan arbiter dapat membatasi keputusan reviewer, tetapi serangan juga dapat berada di luar komentar. PhantomSkill menunjukkan bahwa perilaku berbahaya dapat disamarkan dalam kode yang tampak memiliki kelemahan biasa #cite(<bab2-17>). Karena itu, ruang lingkup perlindungan perlu menyebutkan masukan yang diperiksa dan komponen yang dapat diubah penyerang. Hasil pertahanan komentar tidak langsung berlaku untuk aturan gate, keluaran alat, atau penyimpanan pengetahuan.
-
-*Sintesis dan Keterbatasan.* Reviewer dapat dipengaruhi oleh masukan yang dibacanya, tetapi keberhasilan serangan bergantung pada model, tugas, dan bentuk serangan. Penelitian ini menguji sanitizer dan aturan arbiter untuk melihat pengaruhnya terhadap keputusan gate. Hasil yang tidak menunjukkan peningkatan tetap perlu dilaporkan. Pengujian juga harus memastikan bahwa pertahanan tidak mengurangi kemampuan menemukan kelemahan pada kode tanpa serangan.
