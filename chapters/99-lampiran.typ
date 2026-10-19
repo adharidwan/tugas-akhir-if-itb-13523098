@@ -1,11 +1,11 @@
 = Pernyataan Penggunaan Kecerdasan Buatan (AI)
 
-#set par(first-line-indent: 0pt)
+#set par(first-line-indent: 0pt, leading: 0.6em)
 
 Dengan ini, saya:
 
 #block(width: 100%)[
-  #set par(first-line-indent: 0pt)
+  #set par(first-line-indent: 0pt, leading: 0.3em)
   #grid(
     columns: (3.8cm, 0.4cm, 1fr),
     row-gutter: 0.4em,
@@ -13,7 +13,7 @@ Dengan ini, saya:
     [NIM], [:], [13523098],
     [Program Studi], [:], [Sarjana Teknik Informatika],
     [Fakultas / Sekolah], [:], [Sekolah Teknik Elektro dan Informatika],
-    [Judul Tugas Akhir], [:], [\<JUDUL TUGAS AKHIR\>],
+    [Judul Tugas Akhir], [:], [Perancangan dan Implementasi Multi-Agent Security Gate untuk Verifikasi Keamanan Kode Hasil Large Language Model],
   )
 ]
 

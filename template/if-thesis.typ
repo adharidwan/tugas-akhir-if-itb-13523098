@@ -155,6 +155,7 @@
     #set page(numbering: none)
     #set par(first-line-indent: 0pt, leading: 0.9em)
     #align(center + top)[
+      #set par(justify: false)
       #v(0.5cm)
       #text(size: 14pt, weight: "bold")[
         #upper(title)
@@ -200,6 +201,7 @@
     #set page(numbering: none)
     #set par(first-line-indent: 0pt, leading: 0.9em)
     #align(center + top)[
+      #set par(justify: false)
       #v(0.5cm)
       #text(size: 14pt, weight: "bold")[
         #upper(title)
@@ -301,6 +303,7 @@
   if abstract-id != none [
     #pagebreak()
     #align(center)[
+      #set par(justify: false)
       #text(size: 14pt, weight: "bold")[ABSTRAK]
       #v(0.5em)
       #text(size: 12pt, weight: "bold")[#upper(title)]
@@ -323,6 +326,7 @@
   if abstract-en != none [
     #pagebreak()
     #align(center)[
+      #set par(justify: false)
       #text(size: 14pt, weight: "bold")[ABSTRACT]
       #v(0.5em)
       #text(size: 12pt, weight: "bold")[#upper(title-en)]

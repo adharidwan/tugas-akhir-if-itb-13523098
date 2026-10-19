@@ -127,4 +127,4 @@ ReasonVul cocok dengan DOI `10.1145/3808197`, Proceedings of the ACM on Software
 
 **Selesai untuk lingkup Bab 2.** Definisi inti berada pada bagian yang sesuai, tanpa subbab 2.0 tambahan. Tidak ada klaim kemampuan LangGraph atau uraian OWASP/CVE yang diperluas tanpa sumber. Sumber tambahan dokumentasi Python sudah diperiksa. Bab 2 tidak memuat bagian 2.6 atau penanda pekerjaan verifikasi.
 
-Judul, NIP, dan isi bab lain dari template bukan klaim penelitian Bab 2 dan tidak diisi dengan data yang tidak diberikan. Perubahan ini menyelesaikan pemeriksaan draf pustaka, bukan finalisasi keseluruhan skripsi. Tindak lanjut implementasi dan eksperimen tercatat sebagai rancangan pribadi, bukan penanda literatur yang dibiarkan terbuka.
+NIP dan isi bab lain dari template bukan klaim penelitian Bab 2 dan tidak diisi dengan data yang tidak diberikan. Judul diisi mengikuti usulan pengguna. Perubahan ini menyelesaikan pemeriksaan draf pustaka, bukan finalisasi keseluruhan skripsi. Tindak lanjut implementasi dan eksperimen tercatat sebagai rancangan pribadi, bukan penanda literatur yang dibiarkan terbuka.
