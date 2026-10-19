@@ -11,9 +11,9 @@ Data mahasiswa, pembimbing, dan judul Indonesia/Inggris telah diisi di `main.typ
 
 Sepuluh paper prioritas beserta PDF lengkap, urutan baca, dan tautan sumber tersedia di [reference/](reference/README.md).
 
-Bab 2 memuat bagian 2.1–2.5. Perbandingan dan posisi penelitian yang sebelumnya berada pada 2.6 disimpan sebagai [catatan pribadi](notes/bab2-catatan-pribadi.md). Penyelesaian 17 penanda draf beserta sumber dan batas klaimnya tercatat pada [hasil pemeriksaan Bab 2](reference/bab2-verifikasi.md).
+Bab 2 memuat bagian II.1–II.5. Perbandingan dan posisi penelitian yang sebelumnya berada pada 2.6 disimpan sebagai [catatan pribadi](notes/bab2-catatan-pribadi.md). Penyelesaian 17 penanda draf beserta sumber dan batas klaimnya tercatat pada [hasil pemeriksaan Bab 2](reference/bab2-verifikasi.md).
 
-Menggunakan [template Typst TA IF ITB oleh DaDecky](https://github.com/DaDecky/Template-Proposal-dan-TA-IF-ITB-Typst). Panduan template asal tersedia di bawah ini.
+Menggunakan [template Typst TA IF ITB oleh DaDecky](https://github.com/DaDecky/Template-Proposal-dan-TA-IF-ITB-Typst). Panduan template asal tersedia di bawah ini. Format disinkronkan dengan [commit template `d4cd685`](https://github.com/DaDecky/Template-Proposal-dan-TA-IF-ITB-Typst/commit/d4cd685): penomoran subbab memakai awalan Romawi dan gaya judul mendukung hingga tingkat empat.
 
 > ⚠️ **DISCLAIMER / WORK IN PROGRESS (WIP)**  
 > Template ini masih dalam tahap **pengembangan aktif (Work in Progress)** dan merupakan proyek eksperimental independen untuk mahasiswa Teknik Informatika STEI ITB.  
@@ -32,7 +32,7 @@ Template ini dirancang agar:
 2. **Sesuai Pedoman TA IF ITB**:
    - Margin format 4-3-3-3 (Kiri 4 cm, Atas 3 cm, Kanan 3 cm, Bawah 3 cm).
    - Tipografi Times New Roman 12 pt, spasi 1.5 baris, perataan rata kanan-kiri (*justified*).
-   - Format penomoran judul bab baku: `BAB I: PENDAHULUAN`, subbab `1.1`, subsubbab `1.1.1`.
+   - Format penomoran judul bab baku: `BAB I: PENDAHULUAN`, subbab `I.1`, subsubbab `I.1.1`.
    - Lambang Ganesha ITB tepat 3.5 cm pada sampul luar.
    - Halaman depan (Abstrak, Kata Pengantar, Daftar Isi, Daftar Gambar, Daftar Tabel) bernomor Romawi kecil (`iii` dst.), bagian bab bernomor Arab (`1`, `2`, dst.).
    - Struktur 5 bab baku IF ITB:
@@ -41,7 +41,7 @@ Template ini dirancang agar:
      * BAB III: Analisis dan Perancangan Solusi.
      * BAB IV: Implementasi dan Evaluasi.
      * BAB V: Kesimpulan dan Saran.
-3. **Konversi ke LaTeX Otomatis**: Mendukung ekspor otomatis bab-bab naskah ke format LaTeX (`.tex`) menggunakan skrip bawaan (`./export-to-latex.sh`).
+3. **[TODO / Eksperimental] Konversi ke LaTeX Otomatis**: Mendukung ekspor otomatis bab-bab naskah ke format LaTeX (`.tex`) menggunakan skrip bawaan (`./export-to-latex.sh`). Fitur ini masih dalam tahap penyempurnaan aktif (WIP).
 
 ---
 
@@ -102,12 +102,17 @@ Buka berkas `main.typ`, lalu sesuaikan parameter pada blok berikut:
   ```
   Setiap kali berkas `.typ` disimpan, berkas `main.pdf` akan langsung diperbarui.
 
-- **Di VSCode / Cursor**:
-  Pasang ekstensi **Tinymist Typst** (`myriad-dreamin.tinymist`). Dokumen akan otomatis di-export ke PDF setiap kali disimpan (`Ctrl + S`).
+- **Di VSCode / Cursor (Alur Menulis & Live Preview)**:
+  1. Pasang ekstensi **Tinymist Typst** (`myriad-dreamin.tinymist`).
+  2. Buka berkas `main.typ`, lalu buka live preview (klik ikon **Show Typst Preview** di pojok kanan atas editor).
+  3. Buka dan sunting berkas bab yang ingin dikerjakan di dalam folder `chapters/` (misalnya `01-pendahuluan.typ`). Pratinjau di samping akan tetap terkunci (*pinned*) menampilkan naskah laporan utuh secara *live*.
+  4. Setiap kali berkas disimpan (`Ctrl + S`), berkas `main.pdf` akan otomatis diekspor dan diperbarui.
 
 ---
 
-## Ekspor ke Format LaTeX
+## Ekspor ke Format LaTeX (Eksperimental / WIP)
+
+> ⚠️ **Catatan / TODO**: Fitur ekspor otomatis ke LaTeX ini masih bersifat **eksperimental (Work in Progress)** dan terus disempurnakan. Hasil konversi mungkin memerlukan penyesuaian manual terutama pada macro khusus, tabel kompleks, atau pemformatan sitasi sebelum dikompilasi dengan pdflatex.
 
 Jika sewaktu-waktu naskah ingin dialihkan atau dimasukkan ke template LaTeX resmi ITB, jalankan:
 ```bash

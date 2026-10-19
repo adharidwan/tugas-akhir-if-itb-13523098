@@ -6,7 +6,7 @@ Diunduh pada 18 Oktober 2026. Versi yang disebutkan secara eksplisit pada daftar
 
 ## Bahan kerja Bab 2
 
-Draf diperbarui pada 20 Oktober 2026. Bab 2 memuat 2.1–2.5 dengan sitasi APA dan bibliografi. Seluruh penanda draf telah ditangani melalui pemeriksaan sumber, koreksi, pembatasan klaim, atau pemindahan rancangan ke catatan pribadi. Implementasi dan eksperimen gate belum dijalankan.
+Draf diperbarui pada 20 Oktober 2026. Bab 2 memuat II.1–II.5 dengan sitasi APA dan bibliografi. Seluruh penanda draf telah ditangani melalui pemeriksaan sumber, koreksi, pembatasan klaim, atau pemindahan rancangan ke catatan pribadi. Implementasi dan eksperimen gate belum dijalankan.
 
 - [Draf Bab 2 dalam Typst](../chapters/02-studi-literatur.typ)
 - [Pratinjau PDF khusus Bab 2](../output/pdf/bab-2-tinjauan-pustaka.pdf)

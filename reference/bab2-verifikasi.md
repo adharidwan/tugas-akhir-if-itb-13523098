@@ -1,6 +1,6 @@
 # Hasil Pemeriksaan Draf Bab 2
 
-Tanggal: **20 Oktober 2026**. Seluruh 17 penanda pekerjaan pada draf telah ditangani. Bab 2 kini berisi 2.1–2.5. Tabel pembanding dan posisi penelitian yang sebelumnya berada pada 2.6 dipindahkan ke [catatan pribadi](../notes/bab2-catatan-pribadi.md).
+Tanggal: **20 Oktober 2026**. Seluruh 17 penanda pekerjaan pada draf telah ditangani. Bab 2 kini berisi II.1–II.5. Tabel pembanding dan posisi penelitian yang sebelumnya berada pada 2.6 dipindahkan ke [catatan pribadi](../notes/bab2-catatan-pribadi.md).
 
 **Arti penyelesaian:** klaim literatur diperiksa, dikoreksi, atau dibatasi; angka yang tidak dapat dibandingkan dikeluarkan dari perbandingan; keputusan rancangan dipindahkan ke catatan pribadi. Ini bukan pernyataan bahwa implementasi atau eksperimen gate telah selesai. Hasil paper tetap merupakan laporan penulis, bukan hasil replikasi sendiri.
 

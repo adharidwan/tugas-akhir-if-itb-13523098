@@ -12,7 +12,7 @@
   if nums.pos().len() == 1 {
     "BAB " + numbering("I", ..nums)
   } else {
-    numbering("1.1", ..nums)
+    numbering("I.1", ..nums)
   }
 })
 #show heading.where(level: 1): it => {
@@ -30,6 +30,16 @@
 }
 #show heading.where(level: 2): set text(size: 12pt, weight: "bold")
 #show heading.where(level: 3): set text(size: 12pt, weight: "bold")
+#show heading.where(level: 4): it => block(width: 100%, breakable: false, above: 1em, below: 0.6em)[
+  #set par(first-line-indent: 0pt)
+  #text(size: 12pt, weight: "bold")[
+    #if it.numbering != none {
+      counter(heading).display(it.numbering)
+      [ ]
+    }
+    #it.body
+  ]
+]
 #show figure.where(kind: table): set figure.caption(position: top)
 #show figure.where(kind: table): set figure(supplement: [Tabel])
 #counter(heading).update(1)
