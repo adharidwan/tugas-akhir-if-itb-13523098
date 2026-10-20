@@ -5,7 +5,7 @@ Repositori naskah Tugas Akhir Program Studi Sarjana Teknik Informatika ITB milik
 - **Pembimbing 1:** Ir. Yudistira Dwi Wardhana Asnar, S.T., Ph.D. — NIP 198008272015041002
 - **Pembimbing 2:** Galuh Barata, S.T., M.T.
 
-**Judul:** Perancangan dan Implementasi Multi-Agent Security Gate untuk Verifikasi Keamanan Kode Hasil Large Language Model.
+**Judul:** Perancangan dan Implementasi Multi-Agent Security Gate dengan Evidence-Based Arbiter untuk Verifikasi Keamanan Kode Hasil Large Language Model.
 
 Data mahasiswa, pembimbing, dan judul Indonesia/Inggris telah diisi di `main.typ`, serta identitas dan judul pada lampiran. NIP pembimbing pertama telah diisi. NIP pembimbing kedua, tanggal pengesahan, dan isi naskah masih perlu dilengkapi.
 

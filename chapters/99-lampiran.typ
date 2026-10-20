@@ -13,7 +13,7 @@ Dengan ini, saya:
     [NIM], [:], [13523098],
     [Program Studi], [:], [Sarjana Teknik Informatika],
     [Fakultas / Sekolah], [:], [Sekolah Teknik Elektro dan Informatika],
-    [Judul Tugas Akhir], [:], [Perancangan dan Implementasi Multi-Agent Security Gate untuk Verifikasi Keamanan Kode Hasil Large Language Model],
+    [Judul Tugas Akhir], [:], [Perancangan dan Implementasi Multi-Agent Security Gate dengan Evidence-Based Arbiter untuk Verifikasi Keamanan Kode Hasil Large Language Model],
   )
 ]
 
