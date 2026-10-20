@@ -6,6 +6,8 @@ Diunduh pada 18 Oktober 2026. Versi yang disebutkan secara eksplisit pada daftar
 
 ## Bahan kerja Bab 2
 
+Pada 21 Oktober 2026, nama Bab 2 diubah menjadi **Studi Literatur**. Bagian II.3.4 membandingkan Evidence-Based Arbiter dengan ReasonVul, VulTrial, QASecClaw, Refute-or-Promote, dan AutoSafeCoder. Perbandingan ditempatkan dalam pembahasan arbiter; bagian II.6 dan paragraf Sintesis dan Keterbatasan tetap tidak dimasukkan.
+
 Draf diperbarui pada 20 Oktober 2026. Bab 2 memuat II.1–II.5 dengan sitasi APA dan bibliografi. Seluruh penanda draf telah ditangani melalui pemeriksaan sumber, koreksi, pembatasan klaim, atau pemindahan rancangan ke catatan pribadi. Implementasi dan eksperimen gate belum dijalankan.
 
 - [Draf Bab 2 dalam Typst](../chapters/02-studi-literatur.typ)

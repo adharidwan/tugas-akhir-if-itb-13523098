@@ -1,4 +1,4 @@
-= Tinjauan Pustaka
+= Studi Literatur
 
 Bab ini membahas penelitian dan konsep yang mendukung pengembangan sistem pemeriksaan keamanan kode hasil LLM. Pembahasan dimulai dari keamanan kode yang dihasilkan LLM dan dataset yang digunakan untuk mengujinya. Selanjutnya dibahas pemeriksaan kode dengan SAST, kerja sama beberapa agen, perbaikan kode, serta serangan yang dapat memengaruhi hasil pemeriksaan. Pembahasan dibatasi pada konsep dan hasil penelitian yang berkaitan dengan pemeriksaan kode hasil LLM.
 
@@ -90,11 +90,25 @@ VulTrial menggunakan pembagian peran seperti ruang sidang. Peneliti keamanan men
 
 Debat tidak selalu menghasilkan keputusan yang benar. Refute-or-Promote menggunakan pemeriksaan bertahap, kritik dari model lain, dan pengujian nyata untuk menolak temuan yang keliru. Laporan kasusnya menunjukkan bahwa kesepakatan beberapa reviewer masih dapat dibantah oleh hasil pengujian #cite(<bab2-01>). Wynn dkk. juga menemukan bahwa agen dapat beralih dari jawaban benar ke jawaban salah setelah menerima alasan dari agen lain #cite(<bab2-39>). Karena itu, persetujuan banyak agen tidak menggantikan kebutuhan akan bukti.
 
-=== Arbiter dan biaya penggunaan model
+=== Evidence-Based Arbiter
 
-Arbiter adalah bagian yang menentukan keputusan akhir berdasarkan hasil pemeriksaan. Dalam rancangan penelitian ini, arbiter menggunakan aturan non-LLM yang disimpan dalam YAML. Agen memberikan temuan dan penjelasan, sedangkan arbiter menentukan _pass_, _revise_, atau _block_. Keputusan pass berarti kode diterima berdasarkan pemeriksaan yang ditetapkan. Revise berarti kode perlu diperbaiki, sedangkan block berarti kode perlu ditinjau manusia. Temuan berkeparahan tinggi yang belum selesai ditangani mencegah kode memperoleh pass.
+Arbiter adalah bagian yang menentukan keputusan akhir berdasarkan hasil pemeriksaan. Dalam penelitian ini, _Evidence-Based Arbiter_ merupakan nama komponen yang direncanakan menggunakan hasil SAST, hasil pengujian, dan konfirmasi Validation sebagai dasar keputusan. Bukti SAST berupa peringatan perlu dibedakan dari kelemahan yang berhasil dikonfirmasi melalui pengujian. Validation memeriksa kesesuaian bukti, kemudian arbiter non-LLM menerapkan aturan keamanan yang disimpan dalam YAML.
 
-Kode yang diterima dapat diberi label _Verified_, dengan arti telah melewati pemeriksaan yang ditetapkan. Label tersebut bukan jaminan bahwa kode bebas dari seluruh kelemahan. Alasan keputusan perlu mencatat aturan, versi kode, dan hasil pengujian. Respons agen yang tidak lengkap serta pengujian yang gagal dijalankan perlu dipisahkan dari hasil yang memenuhi seluruh syarat penerimaan.
+ReasonVul menggabungkan penilaian agen melalui kesepakatan dan debat. Jika seluruh agen sepakat, hasilnya diterima. Jika kesepakatan belum tercapai sampai batas ronde, metode tersebut menetapkan hasil tidak rentan #cite(<bab2-25>). Pada gate yang direncanakan, bukti yang bertentangan atau pemeriksaan wajib yang belum selesai diarahkan untuk ditinjau manusia. Pengaruhnya terhadap kode rentan yang lolos dan banyaknya kode yang ditahan perlu dibandingkan.
+
+VulTrial menyerahkan keputusan kepada review board berbasis LLM setelah pembahasan antaragen. Metode tersebut juga memakai ambang keputusan: fungsi dinilai rentan ketika terdapat temuan yang dinyatakan valid, berkeparahan tinggi, dan memerlukan perbaikan segera #cite(<bab2-38>). Pada Evidence-Based Arbiter, penjelasan agen menjadi masukan bagi aturan program yang juga menerima hasil alat dan pengujian.
+
+QASecClaw lebih dekat dari sisi penggunaan hasil SAST. Ketika LLM gagal, mengalami timeout, atau menghasilkan respons yang tidak valid, temuan SAST tetap dipertahankan #cite(<bab2-05>). Kebijakan tersebut menjaga agar kegagalan reviewer tidak menghapus peringatan. Evidence-Based Arbiter menerapkan aturan pada penerimaan kode dan tindak lanjutnya: diteruskan, diperbaiki, atau ditinjau manusia. Mempertahankan peringatan perlu dibedakan dari keputusan menerima kode.
+
+Refute-or-Promote juga mensyaratkan bukti hasil pengujian sebelum temuan dilaporkan kepada pengelola perangkat lunak. Perpindahan tahap dikelola agen orkestrator, dengan peninjauan manusia terhadap temuan akhir #cite(<bab2-01>). Sementara itu, AutoSafeCoder sudah menghubungkan pemeriksaan dan perbaikan kode melalui umpan balik agen #cite(<bab2-22>). Rancangan penelitian ini menggunakan aturan penerimaan kode hasil generasi yang menghubungkan bukti pemeriksaan dengan keputusan serta pemeriksaan ulang setelah patch.
+
+Arbiter menentukan _pass_, _revise_, atau _block_. Pass berarti kode memenuhi syarat pemeriksaan wajib. Revise berarti kode perlu diperbaiki dan diperiksa ulang. Block berarti kode ditahan untuk ditinjau manusia. Menurut rancangan awal, Triage tidak dapat sendirian membatalkan temuan SAST berkeparahan tinggi yang belum diselesaikan. Aturan ini perlu diuji karena dapat menahan kode rentan sekaligus menambah kasus yang sebenarnya tidak rentan untuk ditinjau.
+
+Kode yang diterima dapat diberi label _Verified_, dengan arti telah melewati pemeriksaan yang ditetapkan. Label tersebut bukan jaminan bahwa kode bebas dari seluruh kelemahan. Alasan keputusan perlu mencatat aturan, versi kode, dan bukti yang digunakan. Setelah kode berubah, bukti dari versi sebelumnya perlu diperbarui melalui pemeriksaan ulang.
+
+Berdasarkan perbandingan tersebut, kontribusi yang diusulkan terletak pada aturan penggabungan bukti dan penanganan hasil yang bertentangan dalam gate. Evaluasinya juga mencakup pengaruh sanitizer dan manipulasi reviewer terhadap keputusan akhir. Manfaat rancangan ini perlu ditunjukkan melalui pengujian; nama Evidence-Based Arbiter dan penggunaan YAML sendiri tidak menunjukkan peningkatan keamanan.
+
+=== Biaya penggunaan model
 
 Penggunaan beberapa model juga menambah biaya. Wang menggabungkan model layanan dengan pemeriksa lokal untuk menyeimbangkan hasil deteksi dan biaya #cite(<bab2-37>). Pada gate, biaya tidak hanya berasal dari pembuatan kode. Pemeriksaan, diskusi, pembuatan pengujian, dan perbaikan berulang turut memakai token serta waktu. Menjalankan beberapa agen bersamaan dapat memperpendek waktu tunggu, tetapi tidak selalu mengurangi jumlah penggunaan model.
 

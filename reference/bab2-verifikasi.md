@@ -4,6 +4,20 @@ Tanggal: **20 Oktober 2026**. Seluruh 17 penanda pekerjaan pada draf telah ditan
 
 **Arti penyelesaian:** klaim literatur diperiksa, dikoreksi, atau dibatasi; angka yang tidak dapat dibandingkan dikeluarkan dari perbandingan; keputusan rancangan dipindahkan ke catatan pribadi. Ini bukan pernyataan bahwa implementasi atau eksperimen gate telah selesai. Hasil paper tetap merupakan laporan penulis, bukan hasil replikasi sendiri.
 
+## Pembaruan 21 Oktober 2026: perbandingan arbiter
+
+Nama Bab 2 menjadi **Studi Literatur**. Bagian II.3.4 menjelaskan Evidence-Based Arbiter sebagai nama deskriptif komponen rancangan penelitian, dengan pemisahan hasil penalaran agen, peringatan SAST, konfirmasi pengujian, dan kebijakan penerimaan kode. Manfaatnya tetap merupakan hal yang akan diuji.
+
+Pemeriksaan primer tambahan untuk perbandingan:
+
+- [ReasonVul, bagian 4.2.5 dan 4.3](https://arxiv.org/html/2605.18153#S4.SS3): hasil mengikuti kesepakatan; jika batas debat tercapai tanpa kesepakatan, hasil ditetapkan tidak rentan. Ini dibandingkan dengan rencana meneruskan kasus yang belum pasti ke peninjauan manusia, bukan dianggap sebagai bukti bahwa salah satu selalu lebih baik.
+- [VulTrial, bagian 2.4](https://arxiv.org/html/2505.10961v2#S2.SS4): review board merupakan agen LLM; klasifikasi memakai gabungan validitas, severity tinggi, dan rekomendasi fix immediately. Rancangan penelitian tidak diklaim sebagai pendekatan pertama yang menggunakan ambang keputusan.
+- [QASecClaw, pendahuluan dan metode](https://arxiv.org/html/2605.01885): temuan SAST dipertahankan jika reviewer gagal, timeout, atau responsnya tidak valid. Kebijakan retensi temuan ini dibedakan dari penerimaan artefak kode. Istilah fail-open pada sumber tidak ditafsirkan sebagai izin meloloskan kode ketika pemeriksaan gagal.
+- [Refute-or-Promote, bagian 3](https://arxiv.org/html/2604.19049#S3): konfirmasi empiris menjadi syarat sebelum pengungkapan temuan, perpindahan tahap dikelola agen orkestrator, dan manusia meninjau hasil akhir. Persyaratan bukti bukan klaim kebaruan tersendiri.
+- [AutoSafeCoder v1, bagian 3](https://arxiv.org/html/2409.10737v1#S3): alur pemeriksaan dan perbaikan iteratif sudah menjadi bagian metode. Perbandingan tidak menyebut alur tersebut sebagai hal baru.
+
+Semua sumber sudah tercantum dalam bibliografi. Tidak ada sumber atau angka hasil eksperimen baru yang ditambahkan. Nama bab dan metadata PDF diperbarui tanpa menambahkan kembali II.6 maupun paragraf Sintesis dan Keterbatasan.
+
 ## V01 — Snapshot SecurityEval
 
 **Selesai: hitungan sumber primer dikonfirmasi.** Pada commit `6f4fb70f782c6d47b02ea24341e8ef8c1eb04a6a`, terdapat 121 baris dan 69 CWE unik berdasarkan awalan `ID`. Angka 130/75 dari brief tidak digunakan. Versi ini dibekukan sebagai sumber rancangan awal. Hitungan isi dataset dibedakan dari jumlah percobaan dan validasi label manual.

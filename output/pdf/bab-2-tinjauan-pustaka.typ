@@ -1,5 +1,5 @@
 // Pratinjau Bab 2 tanpa halaman muka dan bab lain dari template.
-#set document(title: "Draf Bab 2: Tinjauan Pustaka", author: "Muhammad Adha Ridwan")
+#set document(title: "Bab 2: Studi Literatur", author: "Muhammad Adha Ridwan")
 #set page(
   paper: "a4",
   margin: (left: 4cm, top: 3cm, right: 3cm, bottom: 3cm),
