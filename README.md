@@ -2,12 +2,12 @@
 
 Repositori naskah Tugas Akhir Program Studi Sarjana Teknik Informatika ITB milik **Muhammad Adha Ridwan (13523098)**.
 
-- **Pembimbing 1:** Ir. Yudistira Dwi Wardhana Asnar Ph.D
-- **Pembimbing 2:** Galuh Barata ST MT
+- **Pembimbing 1:** Ir. Yudistira Dwi Wardhana Asnar, S.T., Ph.D. — NIP 198008272015041002
+- **Pembimbing 2:** Galuh Barata, S.T., M.T.
 
 **Judul:** Perancangan dan Implementasi Multi-Agent Security Gate untuk Verifikasi Keamanan Kode Hasil Large Language Model.
 
-Data mahasiswa, pembimbing, dan judul Indonesia/Inggris telah diisi di `main.typ`, serta identitas dan judul pada lampiran. NIP pembimbing, tanggal pengesahan, dan isi naskah masih perlu dilengkapi.
+Data mahasiswa, pembimbing, dan judul Indonesia/Inggris telah diisi di `main.typ`, serta identitas dan judul pada lampiran. NIP pembimbing pertama telah diisi. NIP pembimbing kedua, tanggal pengesahan, dan isi naskah masih perlu dilengkapi.
 
 Sepuluh paper prioritas beserta PDF lengkap, urutan baca, dan tautan sumber tersedia di [reference/](reference/README.md).
 

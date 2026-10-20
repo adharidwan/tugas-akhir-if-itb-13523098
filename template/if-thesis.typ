@@ -256,18 +256,12 @@
       #if advisor2 != none [
         #grid(
           columns: (1fr, 1fr),
-          align(center)[
-            Pembimbing I,
-            #v(2.5cm)
-            #underline(advisor1)\
-            NIP. #nip1
-          ],
-          align(center)[
-            Pembimbing II,
-            #v(2.5cm)
-            #underline(advisor2)\
-            NIP. #nip2
-          ]
+          align: center + bottom,
+          row-gutter: 0.6em,
+          [Pembimbing I,], [Pembimbing II,],
+          [#v(2.5cm)], [#v(2.5cm)],
+          [#underline(advisor1)], [#underline(advisor2)],
+          [NIP. #nip1], [NIP. #nip2],
         )
       ] else [
         #align(center)[
