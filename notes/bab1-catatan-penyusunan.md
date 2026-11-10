@@ -9,6 +9,28 @@ Tanggal penyusunan: **10 November 2026**. Catatan ini mendampingi [Bab I Pendahu
 - Rancangan mengacu pada catatan Bab 2 dan komparasi pribadi yang tersedia di workspace. Perubahan yang sudah ada pada kedua catatan tersebut tidak disunting dalam penyusunan Bab I.
 - Evidence-Based Arbiter merupakan nama deskriptif komponen. Kontribusi yang diusulkan berupa kebijakan penerimaan dan evaluasinya ketika bukti tidak lengkap atau bertentangan, setelah patch, serta ketika reviewer menerima komentar manipulatif. Banyaknya agen, format YAML, dan penggunaan bukti sendiri tidak diklaim sebagai kebaruan.
 
+## Penyesuaian gaya terhadap acuan Edbert
+
+Pada 10 November 2026, Bab I dibandingkan kembali dengan Bab I Edbert Eddyson Gunawan (13522039), halaman tercetak 1–5 atau halaman PDF 14–18 pada berkas lokal `13522039-Edbert Eddyson Gunawan.pdf`. Perbandingan membaca seluruh bagian latar belakang sampai sistematika pembahasan. Acuan digunakan untuk alur penjelasan dan bentuk penyajian; isi, data, dan rujukan topik Edbert tidak dipindahkan ke naskah TA ini.
+
+| Aspek | Pola pada tulisan Edbert | Penyesuaian pada Bab I TA ini |
+|---|---|---|
+| Latar belakang | Masalah umum diperkenalkan, pendekatan yang tersedia dijelaskan, lalu perhatian dipersempit ke persoalan yang dipilih dan usulan sistem. | Enam paragraf mengalir dari risiko kode LLM, pemeriksaan dan multi-agen, persoalan keputusan serta bukti, manipulasi reviewer, hingga usulan gate. |
+| Rumusan masalah | Tiga pertanyaan pendek dengan fokus arsitektur, dukungan mekanisme, dan kinerja. | Tiga pertanyaan dipersingkat dengan tetap mempertahankan fokus rancangan, ketepatan keputusan dan patch, serta pengaruh sanitizer/arbiter terhadap ketahanan. |
+| Tujuan | Satu paragraf yang menjelaskan hasil sistem dan hubungannya dengan persoalan penelitian. | Tiga tujuan dalam daftar diubah menjadi satu paragraf yang mencakup ketiga rumusan masalah. |
+| Batasan masalah | Daftar singkat yang menegaskan ruang lingkup utama. | Daftar dipadatkan menjadi lima poin. Batas Python, lima CWE, model yang tersedia, alat, lingkungan uji, dua ronde patch, serangan komentar, dan pemisahan data tetap dijelaskan. |
+| Metodologi | Empat tahap dengan nama dan uraian singkat. | Tahap disusun menjadi studi literatur/perancangan, penyiapan data/skenario, implementasi, serta pengujian/analisis. Tidak menyatakan tahapan implementasi atau pengujian sudah selesai. |
+| Sistematika | Uraian pendek per bab dalam bentuk paragraf. | Penjelasan tiap bab ditulis sebagai prosa singkat tanpa mengulang daftar metrik atau rincian rancangan. |
+
+Draf sebelum penyesuaian sekitar 1.600 kata dan sesudahnya sekitar 1.070 kata berdasarkan pemisahan kata pada sumber Typst, termasuk judul dan penanda sitasi. Ukuran ini dipakai untuk meninjau keringkasan, bukan sebagai target panjang yang harus sama dengan dokumen acuan.
+
+Rincian protokol yang diringkas dari prosa Bab I tetap menjadi bahan perancangan dan evaluasi:
+
+- Bekukan versi dataset, knowledge store, kebijakan, dan konfigurasi sebelum pengujian akhir. Catat identitas model, parameter panggilan, versi prompt, alat, serta aturan yang dipakai. Label acuan diperiksa secara terpisah dari alat di dalam gate dan sampel yang dikeluarkan memiliki alasan.
+- Pertahankan generator yang sama. Samakan batas revisi pada kondisi yang mendukung perbaikan, lalu catat perbedaan anggaran, token, dan waktu aktual. Baseline generator tanpa gate menilai keluaran awal; tidak dianggap telah menerima bukti perbaikan yang sama.
+- Ganti penentu keputusan arbiter dengan reviewer untuk kondisi pembanding tanpa arbiter, sambil mempertahankan bukti alat lainnya. Kasus timeout, respons tidak valid, dan pengujian tidak berjalan tetap dicatat. Block karena gagal pemeriksaan bukan label rentan.
+- Laporkan unsafe pass, benign pass, precision/recall/F1, pass/revise/block, cakupan, serta keberhasilan patch yang menjaga fungsi dan tidak menambah kelemahan acuan. ASR bersyarat menghitung perubahan menjadi pass pada kode rentan yang semula ditahan; penyebut nol dilaporkan tidak terdefinisi. Hasil pada kode tanpa serangan tetap dilaporkan untuk melihat kehilangan kemampuan deteksi.
+
 ## Hubungan rumusan masalah, tujuan, dan evaluasi
 
 | Rumusan masalah | Tujuan | Bukti evaluasi yang direncanakan |
