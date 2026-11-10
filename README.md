@@ -11,6 +11,8 @@ Data mahasiswa, pembimbing, dan judul Indonesia/Inggris telah diisi di `main.typ
 
 Sepuluh paper prioritas beserta PDF lengkap, urutan baca, dan tautan sumber tersedia di [reference/](reference/README.md).
 
+Draf **Bab I Pendahuluan** disusun pada 10 November 2026, mencakup latar belakang, tiga rumusan masalah beserta tujuan yang sesuai, batasan, metodologi, dan sistematika pembahasan. [PDF Bab 1](output/pdf/bab-1-pendahuluan.pdf) dan [catatan penyusunan](notes/bab1-catatan-penyusunan.md) tersedia untuk peninjauan.
+
 Bab 2 berjudul **Studi Literatur** dan memuat bagian II.1–II.5. Perbandingan Evidence-Based Arbiter dengan pendekatan dalam literatur dibahas pada II.3.4. Perbandingan dan posisi penelitian yang sebelumnya berada pada 2.6 disimpan sebagai [catatan pribadi](notes/bab2-catatan-pribadi.md). Penyelesaian 17 penanda draf beserta sumber dan batas klaimnya tercatat pada [hasil pemeriksaan Bab 2](reference/bab2-verifikasi.md).
 
 Menggunakan [template Typst TA IF ITB oleh DaDecky](https://github.com/DaDecky/Template-Proposal-dan-TA-IF-ITB-Typst). Panduan template asal tersedia di bawah ini. Format disinkronkan dengan [commit template `d4cd685`](https://github.com/DaDecky/Template-Proposal-dan-TA-IF-ITB-Typst/commit/d4cd685): penomoran subbab memakai awalan Romawi dan gaya judul mendukung hingga tingkat empat.
