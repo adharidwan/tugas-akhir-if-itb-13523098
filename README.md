@@ -3,7 +3,7 @@
 Repositori naskah Tugas Akhir Program Studi Sarjana Teknik Informatika ITB milik **Muhammad Adha Ridwan (13523098)**.
 
 - **Pembimbing 1:** Ir. Yudistira Dwi Wardhana Asnar, S.T., Ph.D. — NIP 198008272015041002
-- **Pembimbing 2:** Galuh Barata, S.T., M.T.
+- **Pembimbing 2:** Galuh Dipa Bharata, S.T., M.T.
 
 **Judul:** Perancangan dan Implementasi Multi-Agent Security Gate dengan Evidence-Based Arbiter untuk Verifikasi Keamanan Kode Hasil Large Language Model.
 
@@ -12,6 +12,8 @@ Data mahasiswa, pembimbing, dan judul Indonesia/Inggris telah diisi di `main.typ
 Sepuluh paper prioritas beserta PDF lengkap, urutan baca, dan tautan sumber tersedia di [reference/](reference/README.md).
 
 Draf **Bab I Pendahuluan** disusun pada 10 November 2026, mencakup latar belakang, tiga rumusan masalah beserta tujuan yang sesuai, batasan, metodologi, dan sistematika pembahasan. Alur penjelasan dan bentuk penyajiannya disesuaikan dengan acuan penulisan Edbert (13522039). [PDF Bab 1](output/pdf/bab-1-pendahuluan.pdf) dan [catatan penyusunan](notes/bab1-catatan-penyusunan.md) tersedia untuk peninjauan.
+
+Pada 21 November 2026, framing Bab I diperjelas menjadi penggunaan LLM untuk kode dan risikonya, alasan pembagian peran agen, kebutuhan serta manfaat guardrails, dan mekanisme keputusan berbasis bukti. Rumusan masalah, tujuan, dan metodologi diselaraskan, termasuk perbandingan satu reviewer dan beberapa agen dengan alat, arbiter, serta batas total penggunaan model yang sama.
 
 Bab 2 berjudul **Studi Literatur** dan memuat bagian II.1–II.5. Perbandingan Evidence-Based Arbiter dengan pendekatan dalam literatur dibahas pada II.3.4. Perbandingan dan posisi penelitian yang sebelumnya berada pada 2.6 disimpan sebagai [catatan pribadi](notes/bab2-catatan-pribadi.md). Penyelesaian 17 penanda draf beserta sumber dan batas klaimnya tercatat pada [hasil pemeriksaan Bab 2](reference/bab2-verifikasi.md).
 

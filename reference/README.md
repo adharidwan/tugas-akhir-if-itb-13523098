@@ -15,6 +15,7 @@ Draf diperbarui pada 20 Oktober 2026. Bab 2 memuat II.1–II.5 dengan sitasi APA
 - [Daftar pustaka kandidat dan status verifikasi](bab2-daftar-pustaka-kandidat.md)
 - [Hasil pemeriksaan V01–V17](bab2-verifikasi.md)
 - [Catatan pribadi: bekas 2.6 dan rancangan eksperimen](../notes/bab2-catatan-pribadi.md)
+- [Komparasi delapan penelitian terdahulu: metode, keputusan, evaluasi, dan posisi TA](../notes/komparasi-penelitian-terdahulu.md)
 - [Bibliografi yang dipakai naskah](../references.bib)
 - [Metadata sumber primer mentah](bab2-metadata-sumber.json)
 - [Metadata publikasi setelah pemeriksaan](bab2-metadata-terverifikasi.json)

@@ -2,6 +2,8 @@
 
 Dipindahkan dari subbab 2.6 pada 20 Oktober 2026. Dokumen ini merupakan bahan kerja pribadi dan tidak dimasukkan ke PDF Bab 2.
 
+Komparasi terarah delapan paper, termasuk QASecClaw, AutoSafeCoder, dan Beyond QASecClaw, diperbarui pada 3 November 2026 dalam [komparasi penelitian terdahulu](komparasi-penelitian-terdahulu.md). Dokumen tersebut merinci dasar keputusan, evaluasi, batas angka hasil, dan usulan pembanding untuk TA.
+
 ## Perbandingan penelitian terdahulu
 
 | Studi | Pendekatan | Dataset / objek | Hasil utama | Keterbatasan |

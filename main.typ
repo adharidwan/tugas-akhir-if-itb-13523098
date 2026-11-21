@@ -10,7 +10,7 @@
   nim: "13523098",
   advisor1: "Ir. Yudistira Dwi Wardhana Asnar, S.T., Ph.D.",
   nip1: "198008272015041002",
-  advisor2: "Galuh Barata, S.T., M.T.",
+  advisor2: "Galuh Dipa Bharata, S.T., M.T.",
   nip2: "<NIP Pembimbing II>",
   date: "<Tanggal Pengesahan>",
   month-year: "<Bulan Tahun>",

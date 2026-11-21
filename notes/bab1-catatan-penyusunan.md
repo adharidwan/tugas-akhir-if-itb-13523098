@@ -2,6 +2,8 @@
 
 Tanggal penyusunan: **10 November 2026**. Catatan ini mendampingi [Bab I Pendahuluan](../chapters/01-pendahuluan.typ) dan [PDF khusus Bab I](../output/pdf/bab-1-pendahuluan.pdf). Isi bab merupakan latar belakang dan rencana penelitian; tidak menyatakan implementasi atau eksperimen TA telah selesai.
 
+Pembaruan framing: **21 November 2026**, mengikuti empat pokok arahan pengguna untuk Bab I.
+
 ## Dasar penyusunan
 
 - Judul mengikuti `main.typ`: *Perancangan dan Implementasi Multi-Agent Security Gate dengan Evidence-Based Arbiter untuk Verifikasi Keamanan Kode Hasil Large Language Model*.
@@ -9,9 +11,36 @@ Tanggal penyusunan: **10 November 2026**. Catatan ini mendampingi [Bab I Pendahu
 - Rancangan mengacu pada catatan Bab 2 dan komparasi pribadi yang tersedia di workspace. Perubahan yang sudah ada pada kedua catatan tersebut tidak disunting dalam penyusunan Bab I.
 - Evidence-Based Arbiter merupakan nama deskriptif komponen. Kontribusi yang diusulkan berupa kebijakan penerimaan dan evaluasinya ketika bukti tidak lengkap atau bertentangan, setelah patch, serta ketika reviewer menerima komentar manipulatif. Banyaknya agen, format YAML, dan penggunaan bukti sendiri tidak diklaim sebagai kebaruan.
 
+## Framing Bab I: empat pokok argumentasi
+
+Latar belakang ditata sebagai satu alur: **penggunaan LLM untuk kode → risiko keamanan → pembagian peran pemeriksaan → guardrails → keputusan berbasis bukti**. Istilah *multi heads* pada arahan dipahami sebagai beberapa agen dengan peran atau sudut pemeriksaan berbeda. Rancangan tidak mensyaratkan setiap agen memakai model yang berbeda.
+
+| Arahan | Argumentasi dalam Bab I | Hubungan dengan evaluasi |
+|---|---|---|
+| Current LLM usage for generating code → why it becomes a problem | Penggunaan AI mencakup generasi kode, debugging/refactoring, dan pengujian. Kode yang memenuhi fungsi masih dapat mengandung kelemahan; hasil benchmark keamanan dibatasi pada model dan sampel studi yang dirujuk. | Generator tanpa gate menjadi pembanding untuk melihat keluaran awal dan kebutuhan pemeriksaan. |
+| Why multi heads instead of one | Pembagian peran memisahkan analisis temuan, penyiapan pengujian, validasi, dan perbaikan. ReasonVul memberi bukti manfaat pada pengaturannya; Beyond QASecClaw menunjukkan tambahan konteks tidak selalu membantu. | Bandingkan satu reviewer dengan beberapa agen memakai generator, akses alat, aturan arbiter, kesempatan revisi, dan batas total penggunaan model yang sama. Catat token dan waktu aktual. |
+| Why guardrails and what benefits we gain | Security gate menetapkan syarat pass/revise/block, mengarahkan perbaikan, dan mencatat alasan penerimaan. Manfaat yang dituju adalah berkurangnya kode rentan yang lolos dengan tetap memperhatikan kode tidak rentan, fungsi, dan biaya. | Unsafe pass, benign pass, cakupan dan block, keberhasilan patch, regresi, token, serta waktu. Menahan semua kode tidak dianggap keberhasilan. |
+| Evidence-based mechanism | Pisahkan dugaan reviewer, peringatan alat, dan hasil pengujian. Arbiter non-LLM menerapkan aturan atas bukti yang sesuai dengan versi kode dan ruang lingkup pemeriksaan; bukti wajib yang belum tersedia menghalangi pass. | Uji bukti bertentangan, pemeriksaan gagal/tidak berjalan, respons tidak valid, serta pemeriksaan ulang setelah patch. Jejak keputusan harus menghubungkan versi kode, bukti, dan aturan. |
+
+Sembilan paragraf latar belakang mengembangkan alur tersebut tanpa menambah subbagian baru: penggunaan AI; risiko keamanan; keterbatasan penyaringan; pembagian peran; guardrails dan manfaat; kebutuhan bukti; mekanisme arbiter; manipulasi reviewer; serta usulan dan evaluasi TA. Rumusan masalah dan tujuan diperbarui agar pembagian peran, seluruh pembanding, dan biaya pemeriksaan disebutkan secara eksplisit.
+
+Perbandingan gate lengkap dengan SAST atau SAST dengan satu reviewer menilai paket sistem secara keseluruhan. Kondisi tambahan satu reviewer dengan arbiter dan akses alat yang sama digunakan untuk menilai kontribusi pembagian peran. Perbedaan hasil pada pembanding utama tidak langsung diatribusikan pada jumlah agen. Batas total penggunaan model dan kesempatan revisi ditetapkan sebelum evaluasi; tambahan biaya tidak disembunyikan dalam klaim manfaat.
+
+### Sumber untuk pembaruan 21 November 2026
+
+- [Stack Overflow Developer Survey 2026, bagian AI](https://survey.stackoverflow.co/2026/ai): penggunaan AI untuk menghasilkan kode, debugging/refactoring, dan menulis atau memperbaiki pengujian. Sumber ini menjelaskan penggunaan AI di kalangan responden survei, bukan tingkat kerentanan atau bukti efektivitas gate. Ditambahkan sebagai `stackoverflow2026ai` dalam bibliografi.
+- [ReasonVul, bagian 6.3.1 dan Tabel 5](https://arxiv.org/html/2605.18153): konfigurasi penuh dibandingkan dengan konfigurasi satu agen dan penghilangan agen pada PrimeVul. Dipakai sebagai dasar menguji manfaat sudut penalaran berbeda, dengan hasil dibatasi pada pengaturan penelitian itu.
+- CyberSecEval, AutoSafeCoder, QASecClaw, Refute-or-Promote, Beyond QASecClaw, dan Thornton diperiksa kembali melalui sumber primer yang ditautkan dalam catatan di bawah. Klaim keamanan saat ini tidak diturunkan dari angka CyberSecEval 2023; hasil tersebut digunakan untuk menunjukkan adanya risiko pada studi yang diuji.
+
+Manfaat gate, manfaat pembagian peran, dan ketahanan sanitizer tetap merupakan sasaran pengujian TA. Belum ada hasil eksperimen TA yang dinyatakan pada pembaruan ini.
+
+### Pemeriksaan hasil pembaruan
+
+Pada 21 November 2026, pratinjau Bab I dan naskah utama dikompilasi dengan Typst 0.15.2. Pratinjau berisi enam halaman isi dan dua halaman daftar pustaka; naskah utama berisi 43 halaman. Sitasi pada sumber Bab I memiliki entri bibliografi yang sesuai. Hasil render Bab I diperiksa untuk penomoran, keterbacaan, pergantian bagian, serta daftar pustaka. Nama pembimbing kedua yang sebelumnya diperbarui menjadi Galuh Dipa Bharata juga sudah tercantum pada PDF naskah utama.
+
 ## Penyesuaian gaya terhadap acuan Edbert
 
-Pada 10 November 2026, Bab I dibandingkan kembali dengan Bab I Edbert Eddyson Gunawan (13522039), halaman tercetak 1–5 atau halaman PDF 14–18 pada berkas lokal `13522039-Edbert Eddyson Gunawan.pdf`. Perbandingan membaca seluruh bagian latar belakang sampai sistematika pembahasan. Acuan digunakan untuk alur penjelasan dan bentuk penyajian; isi, data, dan rujukan topik Edbert tidak dipindahkan ke naskah TA ini.
+Pada 10 November 2026, Bab I dibandingkan kembali dengan Bab I Edbert Eddyson Gunawan (13522039), halaman tercetak 1–5 atau halaman PDF 14–18 pada berkas lokal `13522039-Edbert Eddyson Gunawan.pdf`. Perbandingan membaca seluruh bagian latar belakang sampai sistematika pembahasan. Acuan digunakan untuk alur penjelasan dan bentuk penyajian; isi, data, dan rujukan topik Edbert tidak dipindahkan ke naskah TA ini. Tabel dan jumlah kata pada bagian ini merekam penyesuaian 10 November; pembaruan framing 21 November dijelaskan pada bagian sebelumnya.
 
 | Aspek | Pola pada tulisan Edbert | Penyesuaian pada Bab I TA ini |
 |---|---|---|
@@ -35,11 +64,11 @@ Rincian protokol yang diringkas dari prosa Bab I tetap menjadi bahan perancangan
 
 | Rumusan masalah | Tujuan | Bukti evaluasi yang direncanakan |
 |---|---|---|
-| RM1: rancangan dan implementasi gate dengan tindak lanjut atas bukti tidak lengkap/bertentangan | Implementasi komponen, kebijakan, dan pencatatan keputusan | Skenario bukti bertentangan, temuan belum ditutup, respons tidak valid, pengujian tidak berjalan, serta kesesuaian hash kode dengan bukti. |
-| RM2: ketepatan keputusan dan hasil perbaikan dibanding pembanding | Pengukuran penerimaan, deteksi, patch, dan biaya | Unsafe pass rate, benign pass rate, jumlah pass/revise/block dan tidak-teruji, precision/recall/F1, patch berhasil, regresi, token, dan waktu. |
+| RM1: pembagian peran dan mekanisme arbiter yang menghubungkan bukti dengan keputusan, termasuk bukti tidak lengkap/bertentangan | Implementasi peran agen, kebijakan, dan pencatatan keputusan | Skenario bukti bertentangan, temuan belum ditutup, respons tidak valid, pengujian tidak berjalan, serta kesesuaian hash kode dengan bukti. |
+| RM2: ketepatan keputusan dan hasil perbaikan dibanding generator tanpa gate, SAST, dan SAST dengan satu reviewer, beserta biaya | Pengukuran penerimaan, deteksi, patch, dan biaya; pengujian kontribusi pembagian peran | Unsafe pass rate, benign pass rate, jumlah pass/revise/block dan tidak-teruji, precision/recall/F1, patch berhasil, regresi, token, dan waktu. Kondisi satu reviewer dengan alat, arbiter, dan anggaran yang sama memisahkan kontribusi pembagian peran dari perubahan paket sistem. |
 | RM3: pengaruh sanitizer dan aturan arbiter terhadap ketahanan serta deteksi | Evaluasi berpasangan dengan komponen diaktifkan/dinonaktifkan | Kode rentan yang semula ditahan lalu menjadi pass setelah serangan; hasil pada kode bersih tetap dilaporkan. Kondisi tanpa arbiter mengganti penentu keputusan dengan reviewer sambil mempertahankan alat dan bukti lainnya. |
 
-Pembanding yang direncanakan adalah generator tanpa gate, SAST saja, SAST dengan satu reviewer, dan gate lengkap. Tugas, generator, serta kesempatan revisi dipertahankan pada kondisi yang relevan. Pembandingan ini merupakan adaptasi kondisi eksperimen TA, bukan klaim replikasi penuh paper pembanding.
+Pembanding yang direncanakan adalah generator tanpa gate, SAST saja, SAST dengan satu reviewer, dan gate lengkap, disertai kondisi satu reviewer dengan alat serta arbiter yang sama untuk menguji pembagian peran. Tugas, generator, serta kesempatan revisi dipertahankan pada kondisi yang relevan. Pembandingan ini merupakan adaptasi kondisi eksperimen TA, bukan klaim replikasi penuh paper pembanding.
 
 ## Batas rancangan yang dipakai
 
